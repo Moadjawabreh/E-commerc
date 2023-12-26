@@ -1,0 +1,147 @@
+﻿@using System.Globalization
+@using static MedicalTools.Controllers.CustomerController
+@model List<cartProductTuples>
+<header>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</header>
+<div class="hero-wrap hero-bread" style="background-image: url('images/bg_6.jpg');">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9 ftco-animate text-center">
+                <h1 class="mb-0 bread">My Cart</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="ftco-section ftco-cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ftco-animate">
+                <div class="cart-list">
+                    <table class="table">
+                        <thead class="thead-primary">
+                            <tr class="text-center">
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var obj in Model)
+                            {
+                                <tr class="text-center">
+                                    <td class="product-remove">
+                                        <a onclick="confirmDelete()"><span class="ion-ios-close"></span></a>
+                                    </td>
+                                    
+                                    @if (obj.Product.UrlImage.Any())
+                                    {
+                                        <td class="image-prod"><div class="img" style="background-image:url(@obj.Product.UrlImage);"></div></td>
+                                    }
+                                    else
+                                    {
+                                        <td class="img" style="background-image:url('default_image_url.jpg');"></td>
+                                        <!-- Provide a default image URL in case there are no images -->
+                                    }
+
+                                    <td class="product-name">
+                                        <h3>@obj.Product.Name</h3>
+                                    </td>
+
+                                    <td class="price">@obj.Product.Price.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</td>
+
+                                    <td class="quantity">
+                                        <span class="price"> @obj.Cart.Quantity</span>
+                                    </td>
+                                    @{
+                                        var totalprice = @obj.Product.Price * obj.Cart.Quantity;
+                                    }
+                                    <td class="total">@totalprice.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</td>
+                                </tr>
+                            }
+                            <!-- END TR-->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col col-lg-5 col-md-6 mt-5 cart-wrap ftco-animate">
+                <div class="cart-total mb-3">
+                    <h3>Cart Totals</h3>
+                    <p class="d-flex">
+                        @{
+                            double Total = 0;
+                            @foreach (var obj in Model)
+                            {
+                                var itemSubtotal = obj.Product.Price * obj.Cart.Quantity;
+                                Total += itemSubtotal;
+                            }
+                        }
+                        <span>Subtotal</span>
+                        <span>@Total.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span>
+                    </p>
+                    <p class="d-flex">
+                        <span>Discount</span>
+                        <span>0.00</span>
+                    </p>
+                    <hr>
+                    <p class="d-flex total-price">
+                        <span>Total</span>
+                        <span>@Total.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span>
+                    </p>
+                </div>
+                <p class="text-center"><a asp-controller="Customer" asp-action="Checkout" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js" ></script>
+    <script>
+        async function confirmDelete() {
+            const swalWithBootstrapButtons = Swal.mixin({
+                customClass: {
+                    confirmButton: "btn btn-success",
+                    cancelButton: "btn btn-danger"
+                },
+                buttonsStyling: false
+            });
+
+            const result = await swalWithBootstrapButtons.fire({
+                title: "Are you sure?",
+                text: "You won't be able to revert this!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonText: "Yes, delete it!",
+                cancelButtonText: "No, cancel!",
+                reverseButtons: true
+            });
+
+            if (result.isConfirmed) {
+                // Perform deletion or update logic here
+                // For example, you can make an AJAX call to delete the item
+                // ...
+
+                // Show a success message after the action is performed
+                swalWithBootstrapButtons.fire({
+                    title: "Deleted!",
+                    text: "Your file has been deleted.",
+                    icon: "success"
+                });
+
+                // Optionally, you can reload the page or update the UI as needed
+                // location.reload();
+            } else if (result.dismiss === Swal.DismissReason.cancel) {
+                swalWithBootstrapButtons.fire({
+                    title: "Cancelled",
+                    text: "Your imaginary file is safe :)",
+                    icon: "error"
+                });
+            }
+        }
+</script>
+
+

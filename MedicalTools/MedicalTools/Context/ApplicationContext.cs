@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MedicalTools.Context
 {
-    public class ApplicationContext:DbContext
+    public class ApplicationContext : DbContext
     {
-        public ApplicationContext(DbContextOptions<ApplicationContext> option):base(option)
+        public ApplicationContext(DbContextOptions<ApplicationContext> option) : base(option)
         {
 
         }
@@ -16,13 +16,12 @@ namespace MedicalTools.Context
 
         public DbSet<Product> products { get; set; }
 
-        public DbSet<Image> images { get; set; }
-
         public DbSet<FeedbackForProduct> feedbackForProducts { get; set; }
 
         public DbSet<FeedbackForWeb> feedbackForWebs { get; set; }
 
         public DbSet<Payment> payments { get; set; }
+        public DbSet<Cart> cart { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -41,11 +40,7 @@ namespace MedicalTools.Context
             });
 
             modelBuilder.Entity<Product>(entity =>
-            {
-                entity.HasMany(u => u.Images)
-                    .WithOne(f => f.Product)
-                    .HasForeignKey(f => f.productID)
-                    .IsRequired();
+            { 
 
                 entity.HasMany(u => u.FeedbackForProducts)
                     .WithOne(f => f.Product)
@@ -61,7 +56,18 @@ namespace MedicalTools.Context
                     .IsRequired();
             });
 
+            modelBuilder.Entity<User>()
+                .HasMany(u => u.carts)
+                .WithOne(f => f.User)
+                .HasForeignKey(f => f.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+                
 
-            }
+            modelBuilder.Entity<Product>()
+                .HasMany(c => c.carts)
+                .WithOne(p => p.product)
+                .HasForeignKey(p => p.productId)
+                .OnDelete(DeleteBehavior.Cascade);
+        }
     }
 }
