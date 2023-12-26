@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "kjm73L9Lr0emZYnvqFsAWP70DMZiA340hcyjZ6w4qvI=",
+=======
+  "Hash": "zB2jwUN6J/UhoT9zrMLfQeDlFdM5dqblRrca7TWsT18=",
+>>>>>>> 5a9b94ef37cc8f12d54b5baed0001f9e7355ab9d
   "Source": "MedicalTools",
   "BasePath": "_content/MedicalTools",
   "Mode": "Default",
@@ -17,7 +21,49 @@
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\User\\Desktop\\E-commerc\\MedicalTools\\MedicalTools\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MedicalTools.styles.css",
+=======
+      "Identity": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "QuickGrid.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\E-commerc\\MedicalTools\\MedicalTools\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MedicalTools.styles.css",
+>>>>>>> 5a9b94ef37cc8f12d54b5baed0001f9e7355ab9d
       "SourceId": "MedicalTools",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\User\\Desktop\\E-commerc\\MedicalTools\\MedicalTools\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",

@@ -504,6 +504,7 @@ C:\Users\DELL\Desktop\E-commerc\MedicalTools\MedicalTools\obj\Debug\net8.0\refin
 C:\Users\DELL\Desktop\E-commerc\MedicalTools\MedicalTools\obj\Debug\net8.0\MedicalTools.pdb
 C:\Users\DELL\Desktop\E-commerc\MedicalTools\MedicalTools\obj\Debug\net8.0\MedicalTools.genruntimeconfig.cache
 C:\Users\DELL\Desktop\E-commerc\MedicalTools\MedicalTools\obj\Debug\net8.0\ref\MedicalTools.dll
+<<<<<<< HEAD
 C:\Users\User\Desktop\E-commerc\MedicalTools\MedicalTools\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\User\Desktop\E-commerc\MedicalTools\MedicalTools\bin\Debug\net8.0\appsettings.json
 C:\Users\User\Desktop\E-commerc\MedicalTools\MedicalTools\bin\Debug\net8.0\MedicalTools.staticwebassets.runtime.json
@@ -757,3 +758,7 @@ C:\Users\User\Desktop\E-commerc\MedicalTools\MedicalTools\obj\Debug\net8.0\refin
 C:\Users\User\Desktop\E-commerc\MedicalTools\MedicalTools\obj\Debug\net8.0\MedicalTools.pdb
 C:\Users\User\Desktop\E-commerc\MedicalTools\MedicalTools\obj\Debug\net8.0\MedicalTools.genruntimeconfig.cache
 C:\Users\User\Desktop\E-commerc\MedicalTools\MedicalTools\obj\Debug\net8.0\ref\MedicalTools.dll
+=======
+C:\Users\DELL\Desktop\E-commerc\MedicalTools\MedicalTools\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
+C:\Users\DELL\Desktop\E-commerc\MedicalTools\MedicalTools\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
+>>>>>>> 5a9b94ef37cc8f12d54b5baed0001f9e7355ab9d
