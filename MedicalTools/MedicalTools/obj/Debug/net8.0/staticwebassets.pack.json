@@ -649,6 +649,10 @@
       "PackagePath": "staticwebassets\\Customer\\images\\bg_6.jpg"
     },
     {
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\header.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\header.jpg"
+    },
+    {
       "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\image_1.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\image_1.jpg"
     },
@@ -1135,6 +1139,10 @@
     {
       "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\style.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Free Photo _ Arrangement of medical objects with empty frame.jpg",
+      "PackagePath": "staticwebassets\\Free Photo _ Arrangement of medical objects with empty frame.jpg"
     },
     {
       "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\css\\site.css",
