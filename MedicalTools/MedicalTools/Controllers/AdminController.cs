@@ -8,5 +8,27 @@ namespace MedicalTools.Controllers
         {
             return View();
         }
+
+        public IActionResult Categories()
+        {
+            return View();
+        }
+
+        public IActionResult Products()
+        {
+            return View();
+        }
+
+        public IActionResult Users()
+        {
+            return View();
+        }
+
+        public IActionResult Testimonials() 
+        {
+            return View();
+        }
+
+
     }
 }
