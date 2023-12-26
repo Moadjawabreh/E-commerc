@@ -17,7 +17,13 @@ namespace MedicalTools.Controllers
             public Cart Cart { get; set; }
             public Product Product { get; set; }
         }
-        public IActionResult Index()
+		public class cartProductOrderTuples
+		{
+			public Cart Cart { get; set; }
+			public Product Product { get; set; }
+            public Order Order { get; set; }
+        }
+		public IActionResult Index()
         {
             return View();
         }
@@ -35,7 +41,7 @@ namespace MedicalTools.Controllers
         public IActionResult Cart()
         {
             
-            int id = 1;
+            int id = 1; // id for current user must fill from session 
             var cartProductTuples = _db.cart
                 .Where(u => u.UserId == id)
                 .Select(cart => new cartProductTuples
@@ -48,7 +54,7 @@ namespace MedicalTools.Controllers
         }
         public IActionResult Checkout()
         {
-            int id = 1;
+            int id = 1; // id for current user must fill from session 
             var cartProductTuples = _db.cart
                 .Where(u => u.UserId == id)
                 .Select(cart => new cartProductTuples
@@ -57,14 +63,52 @@ namespace MedicalTools.Controllers
                     Product = _db.products.FirstOrDefault(p => p.ID == cart.productId)
                 }).ToList();
 
-            return View(cartProductTuples);
-        }
+            Order obj = new Order();
+            double totalPrice = 0;
+            foreach (var price in cartProductTuples)
+            {
+                totalPrice += price.Cart.Quantity * price.Product.Price;
+            }
+            obj.Total = totalPrice;
 
-        public IActionResult Payment()
+            return View(obj);
+        }
+        [HttpPost]
+        public IActionResult Checkout(Order ord)
         {
-            TempData["success"] = "Payment processed successfully";
+            var obj = _db.payments;
+            foreach (var item in obj)
+            {
+                if (item.cardNo == ord.card)
+
+                {
+                        if (item.Password == ord.password)
+                    {
+                        _db.orders.Add(ord);
+                        _db.SaveChanges();
+                        int id = 1; // id for current user must fill from session 
+                        var cartsToDelete = _db.cart.Where(cart => cart.UserId == id);
+
+                        _db.cart.RemoveRange(cartsToDelete);
+                        _db.SaveChanges();
+
+                        TempData["success"] = "Payment processed successfully";
+                        return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        TempData["error"] = "Payment does't work";
+                        return View();
+                    }
+                }
+                else
+                {
+                    TempData["error"] = "Payment does't work";
+                    return View();
+                }
+            }
             TempData["error"] = "Payment does't work";
-            return RedirectToAction("Index");
+            return View();
         }
 
 		public IActionResult Login()

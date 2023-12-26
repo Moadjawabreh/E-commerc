@@ -20,3 +20,12 @@ html {
 body {
   margin-bottom: 60px;
 }
+.toast {
+    background-color: #4cff00 !important;
+}
+
+/* Customize the text color of Toastr */
+.toast-title,
+.toast-message {
+    color: white !important;
+}

@@ -5,7 +5,7 @@
 namespace MedicalTools.Migrations
 {
     /// <inheritdoc />
-    public partial class ResetDb : Migration
+    public partial class ResetDatabase : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -30,6 +30,7 @@ namespace MedicalTools.Migrations
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    cardNo = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Password = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
@@ -46,7 +47,8 @@ namespace MedicalTools.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    locationUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    City = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Role = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -64,6 +66,7 @@ namespace MedicalTools.Migrations
                     Price = table.Column<double>(type: "float", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     percentageOfDiscount = table.Column<double>(type: "float", nullable: false),
+                    UrlImage = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     categoryID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -93,6 +96,32 @@ namespace MedicalTools.Migrations
                     table.ForeignKey(
                         name: "FK_feedbackForWebs_users_userID",
                         column: x => x.userID,
+                        principalTable: "users",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "orders",
+                columns: table => new
+                {
+                    ID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Location = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    card = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Total = table.Column<double>(type: "float", nullable: false),
+                    userId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_orders", x => x.ID);
+                    table.ForeignKey(
+                        name: "FK_orders_users_userId",
+                        column: x => x.userId,
                         principalTable: "users",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
@@ -154,26 +183,6 @@ namespace MedicalTools.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "images",
-                columns: table => new
-                {
-                    ID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    UrlImage = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    productID = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_images", x => x.ID);
-                    table.ForeignKey(
-                        name: "FK_images_products_productID",
-                        column: x => x.productID,
-                        principalTable: "products",
-                        principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
             migrationBuilder.CreateIndex(
                 name: "IX_cart_productId",
                 table: "cart",
@@ -200,9 +209,9 @@ namespace MedicalTools.Migrations
                 column: "userID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_images_productID",
-                table: "images",
-                column: "productID");
+                name: "IX_orders_userId",
+                table: "orders",
+                column: "userId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_products_categoryID",
@@ -223,16 +232,16 @@ namespace MedicalTools.Migrations
                 name: "feedbackForWebs");
 
             migrationBuilder.DropTable(
-                name: "images");
+                name: "orders");
 
             migrationBuilder.DropTable(
                 name: "payments");
 
             migrationBuilder.DropTable(
-                name: "users");
+                name: "products");
 
             migrationBuilder.DropTable(
-                name: "products");
+                name: "users");
 
             migrationBuilder.DropTable(
                 name: "categories");

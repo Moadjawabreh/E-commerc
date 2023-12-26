@@ -37,6 +37,7 @@ namespace MedicalTools.Models
 
         public ICollection<FeedbackForWeb> FeedbackForWebs { get; set; }
         public ICollection<Cart> carts { get; set; }
+        public ICollection<Order> orders { get; set; }
 
     }
 }
