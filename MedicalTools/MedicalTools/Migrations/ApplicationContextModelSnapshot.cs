@@ -22,6 +22,32 @@ namespace MedicalTools.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("MedicalTools.Models.Cart", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("productId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("UserId");
+
+                    b.HasIndex("productId");
+
+                    b.ToTable("cart");
+                });
+
             modelBuilder.Entity("MedicalTools.Models.Category", b =>
                 {
                     b.Property<int>("ID")
@@ -101,28 +127,6 @@ namespace MedicalTools.Migrations
                     b.ToTable("feedbackForWebs");
                 });
 
-            modelBuilder.Entity("MedicalTools.Models.Image", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
-
-                    b.Property<string>("UrlImage")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("productID")
-                        .HasColumnType("int");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("productID");
-
-                    b.ToTable("images");
-                });
-
             modelBuilder.Entity("MedicalTools.Models.Payment", b =>
                 {
                     b.Property<int>("ID")
@@ -158,6 +162,10 @@ namespace MedicalTools.Migrations
 
                     b.Property<double>("Price")
                         .HasColumnType("float");
+
+                    b.Property<string>("UrlImage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("categoryID")
                         .IsRequired()
@@ -205,19 +213,23 @@ namespace MedicalTools.Migrations
                     b.ToTable("users");
                 });
 
-            modelBuilder.Entity("ProductUser", b =>
+            modelBuilder.Entity("MedicalTools.Models.Cart", b =>
                 {
-                    b.Property<int>("ProductsID")
-                        .HasColumnType("int");
+                    b.HasOne("MedicalTools.Models.User", "User")
+                        .WithMany("carts")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
-                    b.Property<int>("UsersID")
-                        .HasColumnType("int");
+                    b.HasOne("MedicalTools.Models.Product", "product")
+                        .WithMany("carts")
+                        .HasForeignKey("productId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.HasKey("ProductsID", "UsersID");
+                    b.Navigation("User");
 
-                    b.HasIndex("UsersID");
-
-                    b.ToTable("ProductUser");
+                    b.Navigation("product");
                 });
 
             modelBuilder.Entity("MedicalTools.Models.FeedbackForProduct", b =>
@@ -250,17 +262,6 @@ namespace MedicalTools.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("MedicalTools.Models.Image", b =>
-                {
-                    b.HasOne("MedicalTools.Models.Product", "Product")
-                        .WithMany("Images")
-                        .HasForeignKey("productID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
-                });
-
             modelBuilder.Entity("MedicalTools.Models.Product", b =>
                 {
                     b.HasOne("MedicalTools.Models.Category", "Category")
@@ -272,21 +273,6 @@ namespace MedicalTools.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("ProductUser", b =>
-                {
-                    b.HasOne("MedicalTools.Models.Product", null)
-                        .WithMany()
-                        .HasForeignKey("ProductsID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("MedicalTools.Models.User", null)
-                        .WithMany()
-                        .HasForeignKey("UsersID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("MedicalTools.Models.Category", b =>
                 {
                     b.Navigation("Products");
@@ -296,7 +282,7 @@ namespace MedicalTools.Migrations
                 {
                     b.Navigation("FeedbackForProducts");
 
-                    b.Navigation("Images");
+                    b.Navigation("carts");
                 });
 
             modelBuilder.Entity("MedicalTools.Models.User", b =>
@@ -304,6 +290,8 @@ namespace MedicalTools.Migrations
                     b.Navigation("FeedbackForProducts");
 
                     b.Navigation("FeedbackForWebs");
+
+                    b.Navigation("carts");
                 });
 #pragma warning restore 612, 618
         }
