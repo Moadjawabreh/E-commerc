@@ -504,3 +504,5 @@ C:\Users\DELL\Desktop\E-commerc\MedicalTools\MedicalTools\obj\Debug\net8.0\refin
 C:\Users\DELL\Desktop\E-commerc\MedicalTools\MedicalTools\obj\Debug\net8.0\MedicalTools.pdb
 C:\Users\DELL\Desktop\E-commerc\MedicalTools\MedicalTools\obj\Debug\net8.0\MedicalTools.genruntimeconfig.cache
 C:\Users\DELL\Desktop\E-commerc\MedicalTools\MedicalTools\obj\Debug\net8.0\ref\MedicalTools.dll
+C:\Users\DELL\Desktop\E-commerc\MedicalTools\MedicalTools\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
+C:\Users\DELL\Desktop\E-commerc\MedicalTools\MedicalTools\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
