@@ -7,6 +7,14 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationContext>(option =>
 option.UseSqlServer(connectionString));
 
+builder.Services.AddSession(options =>
+{
+	options.Cookie.Name = ".AdventureWorks.Session";
+	options.IdleTimeout = TimeSpan.FromSeconds(10);
+	options.Cookie.IsEssential = true;
+});
+
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -24,6 +32,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseSession();
 
 app.UseAuthorization();
 
