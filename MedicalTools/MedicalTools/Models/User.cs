@@ -11,10 +11,6 @@ namespace MedicalTools.Models
     }
     public class User
     {
-        public User()
-        {
-            this.Products = new HashSet<Product>();
-        }
         public int ID { get; set; }
 
 		[Required]
@@ -37,11 +33,10 @@ namespace MedicalTools.Models
         [Required]
 		public Role Role { get; set; }
 
-        public ICollection<Product> Products { get; set; }
-
         public ICollection<FeedbackForProduct> FeedbackForProducts { get; set; }
 
         public ICollection<FeedbackForWeb> FeedbackForWebs { get; set; }
+        public ICollection<Cart> carts { get; set; }
 
     }
 }

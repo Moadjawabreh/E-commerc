@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MedicalTools.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20231225161022_firstMigration")]
-    partial class firstMigration
+    [Migration("20231226162149_ResetDb")]
+    partial class ResetDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,32 @@ namespace MedicalTools.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("MedicalTools.Models.Cart", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("productId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("UserId");
+
+                    b.HasIndex("productId");
+
+                    b.ToTable("cart");
+                });
 
             modelBuilder.Entity("MedicalTools.Models.Category", b =>
                 {
@@ -208,19 +234,23 @@ namespace MedicalTools.Migrations
                     b.ToTable("users");
                 });
 
-            modelBuilder.Entity("ProductUser", b =>
+            modelBuilder.Entity("MedicalTools.Models.Cart", b =>
                 {
-                    b.Property<int>("ProductsID")
-                        .HasColumnType("int");
+                    b.HasOne("MedicalTools.Models.User", "User")
+                        .WithMany("carts")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
-                    b.Property<int>("UsersID")
-                        .HasColumnType("int");
+                    b.HasOne("MedicalTools.Models.Product", "product")
+                        .WithMany("carts")
+                        .HasForeignKey("productId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.HasKey("ProductsID", "UsersID");
+                    b.Navigation("User");
 
-                    b.HasIndex("UsersID");
-
-                    b.ToTable("ProductUser");
+                    b.Navigation("product");
                 });
 
             modelBuilder.Entity("MedicalTools.Models.FeedbackForProduct", b =>
@@ -275,21 +305,6 @@ namespace MedicalTools.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("ProductUser", b =>
-                {
-                    b.HasOne("MedicalTools.Models.Product", null)
-                        .WithMany()
-                        .HasForeignKey("ProductsID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("MedicalTools.Models.User", null)
-                        .WithMany()
-                        .HasForeignKey("UsersID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("MedicalTools.Models.Category", b =>
                 {
                     b.Navigation("Products");
@@ -300,6 +315,8 @@ namespace MedicalTools.Migrations
                     b.Navigation("FeedbackForProducts");
 
                     b.Navigation("Images");
+
+                    b.Navigation("carts");
                 });
 
             modelBuilder.Entity("MedicalTools.Models.User", b =>
@@ -307,6 +324,8 @@ namespace MedicalTools.Migrations
                     b.Navigation("FeedbackForProducts");
 
                     b.Navigation("FeedbackForWebs");
+
+                    b.Navigation("carts");
                 });
 #pragma warning restore 612, 618
         }

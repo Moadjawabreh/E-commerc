@@ -7996,19 +7996,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
       "projectName": "MedicalTools",
-      "projectPath": "C:\\Users\\User\\Desktop\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\E-commerc\\MedicalTools\\MedicalTools\\obj\\",
+      "projectPath": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8095,7 +8095,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\User\\Desktop\\E-commerc\\MedicalTools\\MedicalTools\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

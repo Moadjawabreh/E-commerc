@@ -5,7 +5,7 @@
 namespace MedicalTools.Migrations
 {
     /// <inheritdoc />
-    public partial class firstMigration : Migration
+    public partial class ResetDb : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -99,6 +99,33 @@ namespace MedicalTools.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "cart",
+                columns: table => new
+                {
+                    ID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Quantity = table.Column<int>(type: "int", nullable: false),
+                    UserId = table.Column<int>(type: "int", nullable: false),
+                    productId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_cart", x => x.ID);
+                    table.ForeignKey(
+                        name: "FK_cart_products_productId",
+                        column: x => x.productId,
+                        principalTable: "products",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_cart_users_UserId",
+                        column: x => x.UserId,
+                        principalTable: "users",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "feedbackForProducts",
                 columns: table => new
                 {
@@ -147,29 +174,15 @@ namespace MedicalTools.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "ProductUser",
-                columns: table => new
-                {
-                    ProductsID = table.Column<int>(type: "int", nullable: false),
-                    UsersID = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_ProductUser", x => new { x.ProductsID, x.UsersID });
-                    table.ForeignKey(
-                        name: "FK_ProductUser_products_ProductsID",
-                        column: x => x.ProductsID,
-                        principalTable: "products",
-                        principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_ProductUser_users_UsersID",
-                        column: x => x.UsersID,
-                        principalTable: "users",
-                        principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
-                });
+            migrationBuilder.CreateIndex(
+                name: "IX_cart_productId",
+                table: "cart",
+                column: "productId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_cart_UserId",
+                table: "cart",
+                column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_feedbackForProducts_productID",
@@ -195,16 +208,14 @@ namespace MedicalTools.Migrations
                 name: "IX_products_categoryID",
                 table: "products",
                 column: "categoryID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_ProductUser_UsersID",
-                table: "ProductUser",
-                column: "UsersID");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "cart");
+
             migrationBuilder.DropTable(
                 name: "feedbackForProducts");
 
@@ -218,13 +229,10 @@ namespace MedicalTools.Migrations
                 name: "payments");
 
             migrationBuilder.DropTable(
-                name: "ProductUser");
+                name: "users");
 
             migrationBuilder.DropTable(
                 name: "products");
-
-            migrationBuilder.DropTable(
-                name: "users");
 
             migrationBuilder.DropTable(
                 name: "categories");
