@@ -127,6 +127,51 @@ namespace MedicalTools.Migrations
                     b.ToTable("feedbackForWebs");
                 });
 
+            modelBuilder.Entity("MedicalTools.Models.Order", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Total")
+                        .HasColumnType("float");
+
+                    b.Property<string>("card")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("userId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("userId");
+
+                    b.ToTable("orders");
+                });
+
             modelBuilder.Entity("MedicalTools.Models.Payment", b =>
                 {
                     b.Property<int>("ID")
@@ -136,6 +181,10 @@ namespace MedicalTools.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("cardNo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -189,8 +238,15 @@ namespace MedicalTools.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Email")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -203,10 +259,6 @@ namespace MedicalTools.Migrations
 
                     b.Property<int>("Role")
                         .HasColumnType("int");
-
-                    b.Property<string>("locationUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
 
@@ -262,6 +314,17 @@ namespace MedicalTools.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("MedicalTools.Models.Order", b =>
+                {
+                    b.HasOne("MedicalTools.Models.User", "user")
+                        .WithMany("orders")
+                        .HasForeignKey("userId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("user");
+                });
+
             modelBuilder.Entity("MedicalTools.Models.Product", b =>
                 {
                     b.HasOne("MedicalTools.Models.Category", "Category")
@@ -292,6 +355,8 @@ namespace MedicalTools.Migrations
                     b.Navigation("FeedbackForWebs");
 
                     b.Navigation("carts");
+
+                    b.Navigation("orders");
                 });
 #pragma warning restore 612, 618
         }

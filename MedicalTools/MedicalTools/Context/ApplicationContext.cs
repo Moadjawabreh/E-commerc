@@ -22,6 +22,7 @@ namespace MedicalTools.Context
 
         public DbSet<Payment> payments { get; set; }
         public DbSet<Cart> cart { get; set; }
+        public DbSet<Order> orders { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -68,6 +69,11 @@ namespace MedicalTools.Context
                 .WithOne(p => p.product)
                 .HasForeignKey(p => p.productId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<User>()
+                .HasMany(c => c.orders)
+                .WithOne(p => p.user)
+                .HasForeignKey(p => p.userId);
         }
     }
 }
