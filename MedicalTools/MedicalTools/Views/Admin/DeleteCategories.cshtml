@@ -1,6 +1,11 @@
 ﻿@model MedicalTools.Models.Category
 
 @{
+    Layout = "Admin";
+}
+
+
+@{
     ViewData["Title"] = "DeleteCategories";
 }
 
@@ -25,9 +30,11 @@
         </dd>
     </dl>
     
-    <form asp-action="DeleteCategories">
-        <input type="hidden" asp-for="ID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+    <form method="post">
+        <button   id="sub" type="submit" class="btn btn-danger">Delete</button>
+        <a asp-action="Categories">Back to List</a>
     </form>
 </div>
+
+
+
