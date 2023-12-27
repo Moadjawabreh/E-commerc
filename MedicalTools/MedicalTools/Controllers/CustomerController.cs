@@ -3,6 +3,7 @@ using MedicalTools.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using static NuGet.Packaging.PackagingConstants;
 
 namespace MedicalTools.Controllers
 {
@@ -46,16 +47,12 @@ namespace MedicalTools.Controllers
             // id for current user must fill from session
             string? userJson = HttpContext.Session.GetString("LiveUSer");
             var user = JsonConvert.DeserializeObject<User>(userJson);
-            if(user !=null)
+            if (true)
             {
-				var cartProductTuples = _db.cart
-				.Where(u => u.UserId == user.ID)
-				.Select(cart => new cartProductTuples
-				{
-					Cart = cart,
-					Product = _db.products.FirstOrDefault(p => p.ID == cart.productId)
-				}).ToList();
-				return View(cartProductTuples);
+				var products = _db.cart.Include(p=>p.product)
+				.Where(u => u.UserId == user.ID).ToList();
+
+				return View(products);
 			}
 
 			//var cartsWithId = _db.cart
@@ -66,24 +63,29 @@ namespace MedicalTools.Controllers
         }
         public IActionResult Checkout()
         {
-            int id = 1; // id for current user must fill from session 
-            var cartProductTuples = _db.cart
-                .Where(u => u.UserId == id)
-                .Select(cart => new cartProductTuples
-                {
-                    Cart = cart,
-                    Product = _db.products.FirstOrDefault(p => p.ID == cart.productId)
-                }).ToList();
-
-            Order obj = new Order();
-            double totalPrice = 0;
-            foreach (var price in cartProductTuples)
+            string? userJson = HttpContext.Session.GetString("LiveUSer");
+            var user = JsonConvert.DeserializeObject<User>(userJson);
+            var orders = _db.cart.Include(p => p.product)
+                .Where(u => u.UserId == user.ID).ToList();
+            if (true)
             {
-                totalPrice += price.Cart.Quantity * price.Product.Price;
+                return View(orders);
             }
-            obj.Total = totalPrice;
 
-            return View(obj);
+            Order order = new Order();
+            double totalPrice = 0;
+
+            foreach (var price in orders)
+            {
+                totalPrice += price.Quantity * price.product.Price * price.product.percentageOfDiscount;
+            }
+            order.Total = totalPrice;
+            order.Date = DateTime.Now;
+            order.Name = user.Name;
+            order.Location = user.location;
+            order.Email = user.Email;
+
+            return View(order);
         }
         [HttpPost]
         public IActionResult Checkout(Order ord)
