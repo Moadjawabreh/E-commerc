@@ -22,7 +22,7 @@ namespace MedicalTools.Models
         [Required]
 		public string Password { get; set; }
         
-        public string City { get; set; }
+        public string location { get; set; }
 
 		[NotMapped]
 		public IFormFile ImageFile { get; set; }

@@ -1,6 +1,6 @@
 ﻿@using System.Globalization
 @using static MedicalTools.Controllers.CustomerController
-@model List<cartProductTuples>
+@model List<Cart>
 <header>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </header>
@@ -37,9 +37,9 @@
                                         <a onclick="confirmDelete()"><span class="ion-ios-close"></span></a>
                                     </td>
                                     
-                                    @if (obj.Product.UrlImage.Any())
+                                    @if (obj.product.UrlImage.Any())
                                     {
-                                        <td class="image-prod"><div class="img" style="background-image:url(@obj.Product.UrlImage);"></div></td>
+                                        <td class="image-prod"><div class="img" style="background-image:url(@obj.product.UrlImage);"></div></td>
                                     }
                                     else
                                     {
@@ -48,16 +48,16 @@
                                     }
 
                                     <td class="product-name">
-                                        <h3>@obj.Product.Name</h3>
+                                        <h3>@obj.product.Name</h3>
                                     </td>
 
-                                    <td class="price">@obj.Product.Price.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</td>
+                                    <td class="price">@obj.product.Price.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</td>
 
                                     <td class="quantity">
-                                        <span class="price"> @obj.Cart.Quantity</span>
+                                        <span class="price"> @obj.Quantity</span>
                                     </td>
                                     @{
-                                        var totalprice = @obj.Product.Price * obj.Cart.Quantity;
+                                        var totalprice = @obj.product.Price * obj.Quantity;
                                     }
                                     <td class="total">@totalprice.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</td>
                                 </tr>
@@ -75,18 +75,21 @@
                     <p class="d-flex">
                         @{
                             double Total = 0;
+                            double discount = 0;
                             @foreach (var obj in Model)
                             {
-                                var itemSubtotal = obj.Product.Price * obj.Cart.Quantity;
+                                var itemSubtotal = obj.product.Price * obj.Quantity;
                                 Total += itemSubtotal;
+                                discount += obj.Quantity * obj.product.Price*obj.product.percentageOfDiscount;
                             }
+
                         }
                         <span>Subtotal</span>
                         <span>@Total.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span>
                     </p>
                     <p class="d-flex">
                         <span>Discount</span>
-                        <span>0.00</span>
+                        <span>@discount.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span>
                     </p>
                     <hr>
                     <p class="d-flex total-price">

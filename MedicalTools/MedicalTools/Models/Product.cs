@@ -12,6 +12,7 @@ namespace MedicalTools.Models
 
         [Required]
         public double Price { get; set; }
+        public double Cost { get; set; }
 
         [Required]
         public string Description { get; set; }
