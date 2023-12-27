@@ -2,11 +2,13 @@
 using MedicalTools.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 namespace MedicalTools.Controllers
 {
     public class CustomerController : Controller
     {
+        
         private readonly ApplicationContext _db;
         public CustomerController(ApplicationContext db)
         {
@@ -29,7 +31,7 @@ namespace MedicalTools.Controllers
         }
 
 
-        public IActionResult Products()
+        public IActionResult Products( int id )
         {
             return View();
         }
@@ -40,17 +42,27 @@ namespace MedicalTools.Controllers
         }
         public IActionResult Cart()
         {
-            
-            int id = 1; // id for current user must fill from session 
-            var cartProductTuples = _db.cart
-                .Where(u => u.UserId == id)
-                .Select(cart => new cartProductTuples
-                {
-                     Cart = cart,
-                     Product = _db.products.FirstOrDefault(p => p.ID == cart.productId)
-                }).ToList();
 
-            return View(cartProductTuples);
+            // id for current user must fill from session
+            string? userJson = HttpContext.Session.GetString("LiveUSer");
+            var user = JsonConvert.DeserializeObject<User>(userJson);
+            if(user !=null)
+            {
+				var cartProductTuples = _db.cart
+				.Where(u => u.UserId == user.ID)
+				.Select(cart => new cartProductTuples
+				{
+					Cart = cart,
+					Product = _db.products.FirstOrDefault(p => p.ID == cart.productId)
+				}).ToList();
+				return View(cartProductTuples);
+			}
+
+			//var cartsWithId = _db.cart
+            //.Where(u => u.UserId == user.ID).ToList();
+
+
+			return RedirectToAction("Index","Login");
         }
         public IActionResult Checkout()
         {

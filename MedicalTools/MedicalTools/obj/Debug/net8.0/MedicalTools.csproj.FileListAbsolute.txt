@@ -759,3 +759,5 @@ C:\Users\HP\OneDrive - Hashemite University\Desktop\New folder\E-commerc\Medical
 C:\Users\HP\OneDrive - Hashemite University\Desktop\New folder\E-commerc\MedicalTools\MedicalTools\obj\Debug\net8.0\ref\MedicalTools.dll
 C:\Users\HP\OneDrive - Hashemite University\Desktop\New folder\E-commerc\MedicalTools\MedicalTools\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
 C:\Users\HP\OneDrive - Hashemite University\Desktop\New folder\E-commerc\MedicalTools\MedicalTools\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
+G:\OrangeTasks\E-commerc\MedicalTools\MedicalTools\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
+G:\OrangeTasks\E-commerc\MedicalTools\MedicalTools\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll

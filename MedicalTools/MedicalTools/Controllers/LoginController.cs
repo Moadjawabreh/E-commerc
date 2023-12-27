@@ -52,18 +52,12 @@ namespace MedicalTools.Controllers
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> Create([Bind("ID,Name,Email,Password")] User user)
+		public async Task<IActionResult> Create(User user)
 		{
-			if(ModelState.IsValid)
-			{
-				user.Role = Role.User;
-				_context.users.Add(user);
-				await _context.SaveChangesAsync();
-				return RedirectToAction("Index", "Customer");
-			}
-
-			return View(user);
-			
+			user.Role = Role.User;
+			_context.users.Add(user);
+			await _context.SaveChangesAsync();
+			return RedirectToAction("Index", "Customer");
 		}
 	}
 }

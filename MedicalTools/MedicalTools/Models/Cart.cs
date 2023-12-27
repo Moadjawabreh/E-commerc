@@ -19,7 +19,5 @@ namespace MedicalTools.Models
         [ForeignKey("productId")]
         public Product product { get; set; }
 
-
-
     }
 }

@@ -21,8 +21,7 @@ namespace MedicalTools.Models
 
         [Required]
 		public string Password { get; set; }
-
-        [Required]
+        
         public string City { get; set; }
 
 		[NotMapped]
