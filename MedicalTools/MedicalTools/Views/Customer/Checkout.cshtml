@@ -26,6 +26,9 @@
         <div class="row justify-content-center">
             <div class="col-xl-8 ftco-animate">
                 <form method="post" class="billing-form">
+                    <input asp-for="ID" hidden />
+                    <input asp-for="Total" hidden />
+                    <input asp-for="Date" hidden />
                     <h3 class="mb-4 billing-heading">Billing Details</h3>
                     <div class="row align-items-end">
                         <div class="col-md-6">
@@ -47,7 +50,7 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label asp-for="Phone">Phone</label>
-                                <input asp-for="Phone"type="text" class="form-control" placeholder="">
+                                <input asp-for="Phone" type="text" class="form-control" placeholder="">
                                 <span asp-validation-for="Phone" class="text-danger"></span>
 
                             </div>
@@ -76,29 +79,30 @@
                             <span asp-validation-for="password" class="text-danger"></span>
                         </div>
                     </div>
-
-                    <div class="row justify-content-center">
-                        <div class="col col-lg-5 col-md-6 mt-5 cart-wrap ftco-animate">
-                            <div class="cart-total mb-3">
-                                <h3>Cart Totals</h3>
-                                <p class="d-flex">
-                                    <span>Subtotal</span>
-                                    <span>@subtotal.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span>
-                                </p>
-                                <p class="d-flex">
-                                    <span>Discount</span>
-                                    <span>@Disc.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span>
-                                </p>
-                                <hr>
-                                <p class="d-flex total-price">
-                                    <span>Total</span>
-                                    <span>@Model.Total.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span>
-                                </p>
-                            </div>
-                            <p class="text-center"><a asp-controller="Customer" asp-action="Checkout" class="btn btn-primary py-3 px-4">Place an order</a></p>
+                
+                <div class="row justify-content-center">
+                    <div class="col col-lg-5 col-md-6 mt-5 cart-wrap ftco-animate">
+                        <div class="cart-total mb-3">
+                            <h3>Cart Totals</h3>
+                            <p class="d-flex">
+                                <span>Subtotal</span>
+                                <span>@subtotal.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span>
+                            </p>
+                            <p class="d-flex">
+                                <span>Discount</span>
+                                <span>@Disc.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span>
+                            </p>
+                            <hr>
+                            <p class="d-flex total-price">
+                                <span>Total</span>
+                                <span>@Model.Total.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span>
+                            </p>
                         </div>
+                        <p class="text-center"><input  type="submit" class="btn btn-primary py-3 px-4"/></p>
                     </div>
-                </form><!-- END -->
+                </div>
+                </form>
+                <!-- END -->
             </div>
         </div>
 </section> <!-- .section -->

@@ -37,7 +37,10 @@ namespace MedicalTools.Controllers
 					}
 					else if (u.Role == Role.User)
 					{
-						return RedirectToAction("Index", "Customer");
+                        // Check if there is a return URL in TempData
+                        var returnUrl = TempData["ReturnUrl"] as string;
+                        // Redirect to the return URL or the default /Customer/Index
+                        return Redirect(string.IsNullOrEmpty(returnUrl) ? "/Customer/Index" : returnUrl);
 					}
 				}
 			}

@@ -21,6 +21,7 @@ namespace MedicalTools.Models
 
         [Required]
 		public string Password { get; set; }
+        [Url]
         
         public string location { get; set; }
 
@@ -30,7 +31,7 @@ namespace MedicalTools.Models
 		public string? ImageUrl { get; set; }
 
         [Required]
-		public Role Role { get; set; }
+        public Role Role { get; set; } = Role.User;
 
         public ICollection<FeedbackForProduct> FeedbackForProducts { get; set; }
 
