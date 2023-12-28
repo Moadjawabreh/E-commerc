@@ -1,0 +1,55 @@
+﻿@using System.Globalization
+@using static MedicalTools.Controllers.CustomerController
+@model List<Order>
+<header>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</header>
+<div class="hero-wrap hero-bread" style="background-image: url('images/bg_6.jpg');">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9 ftco-animate text-center">
+                <h1 class="mb-0 bread">My Order</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="ftco-section ftco-cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ftco-animate">
+                <div class="cart-list">
+                    <table class="table">
+                        <thead class="thead-primary">
+                            <tr class="text-center">
+                                <th>Date</th>
+                                <th>Total Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var obj in Model)
+                            {
+                                <tr class="text-center">
+                                    <td class="product-name">
+                                        <h3>@obj.Date</h3>
+                                    </td>
+
+                                    <td class="price">
+                                        @obj.Total.ToString("C", CultureInfo.GetCultureInfo("en-JO"))
+                                    </td>
+                                </tr>
+                            }
+                            <!-- END TR-->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col col-lg-5 col-md-6 mt-5 cart-wrap ftco-animate">
+                <p class="text-center"><a asp-controller="Customer" asp-action="Index" class="btn btn-primary py-3 px-4">Back</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+

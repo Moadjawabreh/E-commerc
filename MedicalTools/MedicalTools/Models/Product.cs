@@ -26,7 +26,6 @@ namespace MedicalTools.Models
 
         [ForeignKey("categoryID")]
         public virtual Category Category { get; set; }
-        [Required]
         public ICollection<FeedbackForProduct> FeedbackForProducts { get; set; }
         public ICollection<Cart> carts { get; set; }
 
