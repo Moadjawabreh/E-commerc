@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj": {}
+    "C:\\Users\\MQ\\OneDrive\\Desktop\\my files\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj": {
+    "C:\\Users\\MQ\\OneDrive\\Desktop\\my files\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
+        "projectUniqueName": "C:\\Users\\MQ\\OneDrive\\Desktop\\my files\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
         "projectName": "MedicalTools",
-        "projectPath": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\obj\\",
+        "projectPath": "C:\\Users\\MQ\\OneDrive\\Desktop\\my files\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
+        "packagesPath": "C:\\Users\\MQ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MQ\\OneDrive\\Desktop\\my files\\E-commerc\\MedicalTools\\MedicalTools\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MQ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
