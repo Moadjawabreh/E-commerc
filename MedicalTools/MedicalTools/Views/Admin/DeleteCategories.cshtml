@@ -1,6 +1,11 @@
 ﻿@model MedicalTools.Models.Category
 
 @{
+    Layout = "Admin";
+}
+
+
+@{
     ViewData["Title"] = "DeleteCategories";
 }
 
@@ -11,23 +16,25 @@
     <h4>Category</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Name)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Name)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Image)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Image)
         </dd>
     </dl>
-    
-    <form asp-action="DeleteCategories">
-        <input type="hidden" asp-for="ID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+
+    <form method="post">
+        <button id="sub" type="submit" class="btn btn-danger">Delete</button>
+        <a asp-action="Categories">Back to List</a>
     </form>
 </div>
+
+
+

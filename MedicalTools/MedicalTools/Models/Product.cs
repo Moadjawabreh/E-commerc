@@ -12,6 +12,7 @@ namespace MedicalTools.Models
 
         [Required]
         public double Price { get; set; }
+        public double Cost { get; set; }
 
         [Required]
         public string Description { get; set; }
@@ -25,7 +26,6 @@ namespace MedicalTools.Models
 
         [ForeignKey("categoryID")]
         public virtual Category Category { get; set; }
-        [Required]
         public ICollection<FeedbackForProduct> FeedbackForProducts { get; set; }
         public ICollection<Cart> carts { get; set; }
 

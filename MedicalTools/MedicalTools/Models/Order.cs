@@ -21,6 +21,7 @@ namespace MedicalTools.Models
         [Required]
         public string password { get; set; }
         public double Total { get; set; }
+        public DateTime Date { get; set; }
         public int userId { get; set; }
         [ForeignKey("userId")]
         public User user { get; set; }

@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html>
+@model Category
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -50,7 +51,7 @@
                     <div class="row d-flex">
                         <div class="col-md pr-4 d-flex topper align-items-center">
                             <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-                            <span class="text">+ 1235 2355 98</span>
+                            <span class="text"></span>
                         </div>
                         <div class="col-md pr-4 d-flex topper align-items-center">
                             <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
@@ -79,14 +80,14 @@
                         <div class="dropdown-menu" aria-labelledby="dropdown04">
                             <a class="dropdown-item" href="shop.html">Shop</a>
                             <a class="dropdown-item" asp-controller="Customer" asp-action="SingleProduct">Single Product</a>
-                            <a class="dropdown-item" href="cart.html">Cart</a>
+                            <a class="dropdown-item" asp-controller="Customer" asp-action="Cart">Cart</a>
                             <a class="dropdown-item" href="checkout.html">Checkout</a>
                         </div>
                     </li>
                     <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                    <li class="nav-item cta cta-colored"><a href="cart.html" class="nav-link"><span class="icon-shopping_cart"></span>[0]</a></li>
+                    <li class="nav-item"><a asp-controller="Customer" asp-action="Contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item cta cta-colored"><a asp-controller="Customer" asp-action="Cart" class="nav-link"><span class="icon-shopping_cart"></span></a></li>
 
                 </ul>
             </div>
@@ -100,8 +101,8 @@
     </div>
     <footer class="ftco-footer bg-light ftco-section">
         <div class="container">
-            <div class="row">
-                <div class="mouse">
+            <div class="row" >
+                <div class="mouse" style="margin-top:40px">
                     <a href="#" class="mouse-icon">
                         <div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
                     </a>
