@@ -5,9 +5,8 @@
 }
 
 @{
-    ViewData["Title"] = "CreatProduct";
+    ViewData["Title"] = "UpdateProduct";
 }
-
 
 <form method="post">
 
@@ -21,41 +20,47 @@
         </div>
 
         <div class="row pb-2">
+
             <div class="col-6">
-                <label asp-for="Name" class="mb-1"></label>
-                <input asp-for="Name" type="text" class="form-control shadow-sm" id="exampleInput" placeholder="Enter something...">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" type="text" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
-            <div class="col-6">
-                <label asp-for="Price" class="form-label"></label>
-                <input asp-for="Price" type="text" class="form-control"  />
-                <span asp-validation-for="Price" class="text-danger"></span>
-            </div>
+
             <div class="col-6">
                 <label asp-for="Description" class="form-label"></label>
-                <input asp-for="Description" type="text" class="form-control"  />
+                <input asp-for="Description" type="text" class="form-control" />
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="col-6">
+                <label asp-for="Price" class="form-label"></label>
+                <input asp-for="Price" type="text" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="col-6">
                 <label asp-for="Cost" class="form-label"></label>
-                <input asp-for="Cost" type="text" class="form-control"  />
+                <input asp-for="Cost" type="text" class="form-control" />
                 <span asp-validation-for="Cost" class="text-danger"></span>
             </div>
             <div class="col-6">
                 <label asp-for="UrlImage" class="form-label">Category Image</label>
-                <input asp-for="UrlImage" type="file" class="form-control"/>
+                <input asp-for="UrlImage" type="file" class="form-control" />
                 <span asp-validation-for="UrlImage" class="text-danger"></span>
             </div>
             <div class="col-6">
                 <label asp-for="percentageOfDiscount" class="form-label"></label>
-                <input asp-for="percentageOfDiscount" type="text" class="form-control"  />
+                <input asp-for="percentageOfDiscount" type="text" class="form-control" />
                 <span asp-validation-for="percentageOfDiscount" class="text-danger"></span>
             </div>
-            <div class="col-12">
+
+
+            <div class="col-6">
                 <label asp-for="categoryID" class="control-label"></label>
-                <select asp-for="categoryID" asp-items="ViewBag.categoriesList" class="form-select border-0 shadow">
-                <option disabled selected>Select Category</option>
-</select>            </div>
+                <select asp-for="categoryID" class="form-control" asp-items="@(new SelectList(ViewBag.categoriesList,"ID","Name"))">
+					<option  value="">Choose Category</option>
+				</select>
+                <span asp-validation-for="categoryID" class="text-danger"></span>
+            </div>
 
         </div>
         <button type="submit" class="btn btn-primary m-2">Create Category</button>
@@ -71,7 +76,7 @@
 
 
 
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
-

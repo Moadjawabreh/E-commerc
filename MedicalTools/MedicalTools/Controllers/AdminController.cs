@@ -2,6 +2,7 @@
 using MedicalTools.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace MedicalTools.Controllers
@@ -16,6 +17,14 @@ namespace MedicalTools.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Customers = _context.users.Count();
+            ViewBag.Oreders = _context.orders.Count();
+            ViewBag.Total = _context.orders.Sum(order => order.Total);
+            ViewBag.TotalReveneu = 0;
+            if (_context.orders.Count() > 0)
+            {
+                ViewBag.TotalReveneu = _context.products.Sum(prodcut => prodcut.Cost * prodcut.percentageOfDiscount) - _context.orders.Sum(order => order.Total);
+            }
             return View();
         }
 
@@ -76,29 +85,23 @@ namespace MedicalTools.Controllers
 
         }
 
-        //[HttpPost, ActionName("DeleteCategories")]
-        //public IActionResult DeleteCategories(Category category)
-        //{
-        //	_context?.categories.Remove(category);
-        //	_context?.SaveChanges();
-
-        //	return RedirectToAction("Categories");
-        //}
-
         // ------- End Delete
 
 
         // ------- Update
 
-        public IActionResult UpdateCategories(int? categoryId)
+        public IActionResult UpdateCategories(int? id)
         {
-            return View();
+            Category category = _context.categories.FirstOrDefault(c => c.ID == id);
+            return View(category);
         }
 
         [HttpPost]
         public IActionResult UpdateCategories(Category category)
         {
-            return View();
+            _context.categories.Update(category);
+            _context.SaveChanges();
+            return RedirectToAction("Categories");
         }
 
         // ------- End Update
@@ -119,7 +122,7 @@ namespace MedicalTools.Controllers
         public IActionResult Products()
         {
             List<Product>? products = _context.products
-                .Include(p => p.Category) 
+                .Include(p => p.Category)
                 .ToList();
             return View(products);
         }
@@ -129,6 +132,13 @@ namespace MedicalTools.Controllers
         // ------- Create
         public IActionResult CreatProduct()
         {
+            IEnumerable<SelectListItem> categories = _context.categories.ToList().Select(u => new SelectListItem
+            {
+                Text = u.Name,
+                Value = u.ID.ToString()
+            });
+            ViewBag.categoriesList = categories;
+
             return View();
         }
 
@@ -149,31 +159,42 @@ namespace MedicalTools.Controllers
 
         // ------- Delete
 
-        public IActionResult DeleteProduct(int? categoryId)
+        public IActionResult DeleteProduct(int? id)
         {
-            return View();
-        }
+            Product product = _context.products.FirstOrDefault(c => c.ID == id);
+            _context.products.Remove(product);
+            _context.SaveChanges();
+            return RedirectToAction("Products");
 
-        [HttpPost, ActionName("Delete")]
-        public IActionResult DeleteProduct(Category category)
-        {
-            return View();
         }
 
         // ------- End Delete
 
-
         // ------- Update
 
-        public IActionResult UpdateProduct(int? categoryId)
+        public IActionResult UpdateProduct(int? id)
         {
-            return View();
+
+            Product product = _context.products.FirstOrDefault(c => c.ID == id);
+
+
+            //IEnumerable<SelectListItem> categories = _context.categories.ToList().Select(u => new SelectListItem
+            //{
+            //    Text = u.Name,
+            //    Value = product.categoryID.ToString()
+            //});
+
+            ViewBag.categoriesList = _context.categories.ToList();
+            return View(product);
         }
 
         [HttpPost]
-        public IActionResult UpdateProduct(Category category)
+        public IActionResult UpdateProduct(Product product)
         {
-            return View();
+            _context.products.Update(product);
+            _context.SaveChanges();
+            return RedirectToAction("Products");
+
         }
 
 
@@ -182,22 +203,38 @@ namespace MedicalTools.Controllers
 
 
 
-
-
         // -------------------------------------------------------------------users
-
         public IActionResult Users()
         {
-            return View();
+            List<User> Users = _context.users.ToList();
+            return View(Users);
         }
 
+        [HttpPost]
+        public IActionResult Users(string SearchItem)
+        {
 
-        //---------------------------------------------------------------
+            if (!string.IsNullOrEmpty(SearchItem))
+            {
+                List<User> searchUsers = _context.users.Where(u => u.Name.Contains(SearchItem)).ToList();
+                return View(searchUsers);
+            }
+
+            List<User> allUsers = _context.users.ToList();
+            return View(allUsers);
+
+
+        }
+
+        //--------------------------------------------------------------- Testimonials
 
 
         public IActionResult Testimonials()
         {
-            return View();
+            List<FeedbackForWeb> FeedbackForWeb = _context.feedbackForWebs
+                .Include(p => p.User)
+                .ToList();
+            return View(FeedbackForWeb);
         }
 
 
