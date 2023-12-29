@@ -2,6 +2,7 @@
 using MedicalTools.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 using Newtonsoft.Json;
 using static NuGet.Packaging.PackagingConstants;
 
@@ -15,10 +16,15 @@ namespace MedicalTools.Controllers
         {
             _db = db;
         }
-        public IActionResult Index()
+        [HttpGet]
+
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return _db.products != null ?
+                        View(await _db.products.Where(p => p.percentageOfDiscount != 1).ToListAsync()) :
+                        Problem("Entity set 'AplicationContext.product'  is null.");
         }
+
         public IActionResult Products(int id)
         {
             return View();
@@ -88,7 +94,7 @@ namespace MedicalTools.Controllers
             string? userJson = HttpContext.Session.GetString("LiveUser");
             var user = JsonConvert.DeserializeObject<User>(userJson);
             ord.userId = user.ID;
-            ord.Date= DateTime.Now;
+            ord.Date = DateTime.Now;
             foreach (var item in obj)
             {
                 if (item.cardNo == ord.card && item.Password == ord.password)
@@ -137,10 +143,34 @@ namespace MedicalTools.Controllers
             return View(obj);
         }
 
+        public async Task<IActionResult> AddToCart(int id)
+        {
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("AddToCart", "Customer");
+                return RedirectToAction("Index", "Login");
+            }
+            else
+            {
+                var user = JsonConvert.DeserializeObject<User>(userJson);
+                var cart = new Cart();
+                cart.UserId= user.ID;
+                cart.productId = id;
+                _db.cart.Add(cart);
+                _db.SaveChanges();
+                TempData["success"] = "product Add to Cart successfully";
+                return RedirectToAction("Index");
+            }
 
 
+        }
 
-
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("LiveUser");
+            return RedirectToAction("Index");
+        }
 
     }
 }
