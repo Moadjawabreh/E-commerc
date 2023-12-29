@@ -1,5 +1,6 @@
 ﻿using MedicalTools.Context;
 using MedicalTools.Models;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
@@ -8,16 +9,17 @@ using static NuGet.Packaging.PackagingConstants;
 
 namespace MedicalTools.Controllers
 {
-    public class CustomerController : Controller
-    {
+	public class CustomerController : Controller
+	{
 
-        private readonly ApplicationContext _db;
-        public CustomerController(ApplicationContext db)
-        {
-            _db = db;
+
+		private readonly ApplicationContext _db;
+        private readonly IWebHostEnvironment webHostEnvironment;
+        public CustomerController(ApplicationContext db, IWebHostEnvironment environment)
+		{
+			_db = db;
+            webHostEnvironment = environment;
         }
-        [HttpGet]
-
         public async Task<IActionResult> Index()
         {
             return _db.products != null ?
@@ -25,15 +27,48 @@ namespace MedicalTools.Controllers
                         Problem("Entity set 'AplicationContext.product'  is null.");
         }
 
+        [ActionName("Product")]
         public IActionResult Products(int id)
-        {
-            return View();
+		{
+            var products = _db.products.Include(p => p.Category).Where(p => p.categoryID == id);
+            return View(products);
         }
 
-        public IActionResult SingleProduct()
-        {
-            return View();
+		public IActionResult SingleProduct()
+		{
+			return View();
+		}
+		public IActionResult Profile()
+		{
+			string? userJson = HttpContext.Session.GetString("LiveUser");
+			var userSession = JsonConvert.DeserializeObject<User>(userJson);
+			var user = _db.users.Find(userSession.ID);
+			return View(user);
+			//var user = new User();
+			//return View(user);
+		}
+
+		[HttpPost]
+		public IActionResult Profile(User user)
+		{
+			if (user.ImageFile != null)
+			{
+				string wwwRootPath = webHostEnvironment.WebRootPath;
+				string fileName = Guid.NewGuid().ToString() + "" +
+				user.ImageFile.FileName;
+				string path = Path.Combine(wwwRootPath + "/Image/", fileName);
+				using (var fileStream = new FileStream(path, FileMode.Create))
+				{
+					user.ImageFile.CopyTo(fileStream);
+				}
+				user.ImageUrl = "/Image/"+fileName;
+			}
+
+			_db.Update(user);
+			_db.SaveChanges();
+			return View(user);
         }
+
         public IActionResult Cart()
         {
 
@@ -165,6 +200,7 @@ namespace MedicalTools.Controllers
 
 
         }
+
 
         public IActionResult Logout()
         {

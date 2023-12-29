@@ -244,6 +244,9 @@ namespace MedicalTools.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -263,7 +266,9 @@ namespace MedicalTools.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("location")
-                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("phoneNumber")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
