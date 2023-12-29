@@ -34,9 +34,10 @@
                             {
                                 <tr class="text-center">
                                     <td class="product-remove">
-                                        <a onclick="confirmDelete()"><span class="ion-ios-close"></span></a>
+                                        <a class="ion-ios-close" data-id="@obj.ID"></a>
+
                                     </td>
-                                    
+
                                     @if (obj.product.UrlImage.Any())
                                     {
                                         <td class="image-prod"><div class="img" style="background-image:url(@obj.product.UrlImage);"></div></td>
@@ -80,7 +81,7 @@
                             {
                                 var itemSubtotal = obj.product.Price * obj.Quantity;
                                 Total += itemSubtotal;
-                                discount += obj.Quantity * obj.product.Price*obj.product.percentageOfDiscount;
+                                discount += obj.Quantity * obj.product.Price * obj.product.percentageOfDiscount;
                             }
 
                         }
@@ -102,49 +103,31 @@
         </div>
     </div>
 </section>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js" ></script>
-    <script>
-        async function confirmDelete() {
-            const swalWithBootstrapButtons = Swal.mixin({
-                customClass: {
-                    confirmButton: "btn btn-success",
-                    cancelButton: "btn btn-danger"
-                },
-                buttonsStyling: false
-            });
 
-            const result = await swalWithBootstrapButtons.fire({
-                title: "Are you sure?",
-                text: "You won't be able to revert this!",
-                icon: "warning",
-                showCancelButton: true,
-                confirmButtonText: "Yes, delete it!",
-                cancelButtonText: "No, cancel!",
-                reverseButtons: true
-            });
 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+<script>
+    $('.ion-ios-close').on('click', function () {
+        var id = $(this).data('id');
+
+        Swal.fire({
+            title: 'Are you sure?',
+            text: 'You won\'t be able to revert this!',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
             if (result.isConfirmed) {
-                // Perform deletion or update logic here
-                // For example, you can make an AJAX call to delete the item
-                // ...
-
-                // Show a success message after the action is performed
-                swalWithBootstrapButtons.fire({
-                    title: "Deleted!",
-                    text: "Your file has been deleted.",
-                    icon: "success"
-                });
-
-                // Optionally, you can reload the page or update the UI as needed
-                // location.reload();
-            } else if (result.dismiss === Swal.DismissReason.cancel) {
-                swalWithBootstrapButtons.fire({
-                    title: "Cancelled",
-                    text: "Your imaginary file is safe :)",
-                    icon: "error"
-                });
+                // User clicked Yes, handle the deletion here
+                window.location.href = '@Url.Action("DeleteCart", "Customer")' + '?id=' + id;
             }
-        }
+        });
+    });
 </script>
 
 

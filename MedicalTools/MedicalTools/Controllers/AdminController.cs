@@ -17,6 +17,7 @@ namespace MedicalTools.Controllers
 
         public IActionResult Index()
         {
+
             ViewBag.Customers = _context.users.Count();
             ViewBag.Oreders = _context.orders.Count();
             ViewBag.Total = _context.orders.Sum(order => order.Total);
@@ -25,7 +26,8 @@ namespace MedicalTools.Controllers
             {
                 ViewBag.TotalReveneu = _context.products.Sum(prodcut => prodcut.Cost * prodcut.percentageOfDiscount) - _context.orders.Sum(order => order.Total);
             }
-            return View();
+            var orders = _context.orders.ToList();
+            return View(orders);
         }
 
 
@@ -231,12 +233,30 @@ namespace MedicalTools.Controllers
 
         public IActionResult Testimonials()
         {
+
             List<FeedbackForWeb> FeedbackForWeb = _context.feedbackForWebs
-                .Include(p => p.User)
+                .Include(p => p.User).Where(p => p.Status == false)
                 .ToList();
             return View(FeedbackForWeb);
         }
 
+        public IActionResult DeleteTestimonials(int id)
+        {
+            var feedback = _context.feedbackForWebs.Find(id);
+            _context.feedbackForWebs.Remove(feedback);
+            _context.SaveChanges();
+            return RedirectToAction("Testimonials");
 
+        }
+
+        public IActionResult ApproveTestimonials(int id)
+        {
+            var feedback = _context.feedbackForWebs.Find(id);
+            feedback.Status = true;
+            _context.feedbackForWebs.Update(feedback);
+            _context.SaveChanges();
+            return RedirectToAction("Testimonials");
+
+        }
     }
 }

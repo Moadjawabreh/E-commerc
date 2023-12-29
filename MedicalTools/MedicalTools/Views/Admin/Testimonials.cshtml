@@ -1,6 +1,4 @@
 ﻿@model IEnumerable<MedicalTools.Models.FeedbackForWeb>
-
-
 @{
     Layout = "Admin";
 }
@@ -10,44 +8,91 @@
     ViewData["Title"] = "Testimonials";
 }
 
-<h1>Testimonials</h1>
+<div class="container">
+    <h2>Testimonials Approval</h2>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Text)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Status)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Text)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.Email)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Text)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.User)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var testimonial in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => testimonial.Text)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => testimonial.Status)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => testimonial.User.Email)
+                    </td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a class="btn btn-outline-success approvebtn" data-id="@testimonial.ID">Approve</a>
+                            <a class="btn btn-danger deletebtn" data-id="@testimonial.ID">Delete</a>
+
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+    $('.deletebtn').on('click', function () {
+        var id = $(this).data('id');
+
+        Swal.fire({
+            title: 'Are you sure?',
+            text: 'You won\'t be able to revert this!',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // User clicked Yes, handle the deletion here
+                window.location.href = '@Url.Action("DeleteTestimonials", "Admin")' + '?id=' + id;
+            }
+        });
+    });
+
+
+
+    $('.approvebtn').on('click', function () {
+        var id = $(this).data('id');
+
+        Swal.fire({
+            title: 'Are you sure?',
+            text: 'You won\'t be able to revert this!',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Approve!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // User clicked Yes, handle the deletion here
+                window.location.href = '@Url.Action("ApproveTestimonials", "Admin")' + '?id=' + id;
+            }
+        });
+    });
+</script>
