@@ -1,4 +1,6 @@
-﻿@{
+﻿@using System.Globalization
+
+@{
     Layout = "Admin";
 }
 
@@ -6,37 +8,38 @@
     <div class="row g-4">
         <div class="col-sm-6 col-xl-3">
             <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                <i class="fa fa-chart-line fa-3x text-primary"></i>
+                <i class="bi bi-person fa-3x text-primary"></i>
                 <div class="ms-3">
-                    <p class="mb-2">Today Sale</p>
-                    <h6 class="mb-0">$1234</h6>
+                    <p class="mb-2">Customers Count</p>
+                    <h6 class="mb-0">@ViewBag.Customers</h6>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 col-xl-3">
             <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                <i class="fa fa-chart-bar fa-3x text-primary"></i>
+                <i class="bi fa-3x text-primary bi-bag-check"></i>
                 <div class="ms-3">
-                    <p class="mb-2">Total Sale</p>
-                    <h6 class="mb-0">$1234</h6>
+                    <p class="mb-2">Orders Count</p>
+                    <h6 class="mb-0">@ViewBag.Oreders</h6>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 col-xl-3">
             <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                <i class="fa fa-chart-area fa-3x text-primary"></i>
+                <i class="bi bi-bar-chart  fa-3x text-primary"></i>
                 <div class="ms-3">
-                    <p class="mb-2">Today Revenue</p>
-                    <h6 class="mb-0">$1234</h6>
+                    <p class="mb-2">Total Sales</p>
+                    <h6 class="mb-0">@ViewBag.Total.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</h6>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 col-xl-3">
             <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                <i class="fa fa-chart-pie fa-3x text-primary"></i>
+                <i class="bi bi-pie-chart-fill fa-3x text-primary"></i>
                 <div class="ms-3">
                     <p class="mb-2">Total Revenue</p>
-                    <h6 class="mb-0">$1234</h6>
+                    <h6 class="mb-0">@ViewBag.TotalReveneu.ToString("C", CultureInfo.GetCultureInfo("en-JO"))
+                    </h6>
                 </div>
             </div>
         </div>
