@@ -1,57 +1,77 @@
 ﻿@model MedicalTools.Models.Product
 
 @{
+    Layout = "Admin";
+}
+
+@{
     ViewData["Title"] = "CreatProduct";
 }
 
-<h1>CreatProduct</h1>
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Product</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.percentageOfDiscount)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.percentageOfDiscount)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.UrlImage)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.UrlImage)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Category)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Category.Image)
-        </dd>
-    </dl>
+<form method="post">
 
-    <form asp-action="CreatProduct">
-        <input type="hidden" asp-for="ID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
-</div>
+    <div class="border shadow-lg m-4 p-3">
+
+        <div class="row pb-2">
+            <h2 class="text-primary">Create Product</h2>
+            <hr />
+            <div asp-validation-summary="All">
+            </div>
+        </div>
+
+        <div class="row pb-2">
+            <div class="col-6">
+                <label asp-for="Name" class="mb-1"></label>
+                <input asp-for="Name" type="text" class="form-control shadow-sm" id="exampleInput" placeholder="Enter something...">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="col-6">
+                <label asp-for="Price" class="form-label"></label>
+                <input asp-for="Price" type="text" class="form-control"  />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="col-6">
+                <label asp-for="Description" class="form-label"></label>
+                <input asp-for="Description" type="text" class="form-control"  />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="col-6">
+                <label asp-for="Cost" class="form-label"></label>
+                <input asp-for="Cost" type="text" class="form-control"  />
+                <span asp-validation-for="Cost" class="text-danger"></span>
+            </div>
+            <div class="col-6">
+                <label asp-for="UrlImage" class="form-label">Category Image</label>
+                <input asp-for="UrlImage" type="file" class="form-control"/>
+                <span asp-validation-for="UrlImage" class="text-danger"></span>
+            </div>
+            <div class="col-6">
+                <label asp-for="percentageOfDiscount" class="form-label"></label>
+                <input asp-for="percentageOfDiscount" type="text" class="form-control"  />
+                <span asp-validation-for="percentageOfDiscount" class="text-danger"></span>
+            </div>
+            <div class="col-12">
+                <label asp-for="categoryID" class="control-label"></label>
+                <select asp-for="categoryID" asp-items="ViewBag.categoriesList" class="form-select border-0 shadow">
+                <option disabled selected>Select Category</option>
+</select>            </div>
+
+        </div>
+        <button type="submit" class="btn btn-primary m-2">Create Category</button>
+
+        <a asp-action="Products" class="btn btn-outline-secondary">Back to List</a>
+
+
+    </div>
+</form>
+
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

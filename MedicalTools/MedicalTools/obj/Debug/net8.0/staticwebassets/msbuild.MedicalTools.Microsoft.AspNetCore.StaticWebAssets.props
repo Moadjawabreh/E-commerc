@@ -4592,12 +4592,20 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Free Photo _ Arrangement of medical objects with empty frame.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\2a928128-cd65-4200-877f-9c1f44be2941RMI_8341 4.jpg))">
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\1.jpeg))">
+>>>>>>> 6008b30f3b15dcb5a4ec7edce980587fe71fec23
       <SourceType>Package</SourceType>
       <SourceId>MedicalTools</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MedicalTools</BasePath>
+<<<<<<< HEAD
       <RelativePath>Image/2a928128-cd65-4200-877f-9c1f44be2941RMI_8341 4.jpg</RelativePath>
+=======
+      <RelativePath>img/1.jpeg</RelativePath>
+>>>>>>> 6008b30f3b15dcb5a4ec7edce980587fe71fec23
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -4606,14 +4614,24 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+<<<<<<< HEAD
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\2a928128-cd65-4200-877f-9c1f44be2941RMI_8341 4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\7b8dcf80-5e35-4be3-abf9-31ee6c179d24RMI_8423.JPG))">
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\1.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\2.jpeg))">
+>>>>>>> 6008b30f3b15dcb5a4ec7edce980587fe71fec23
       <SourceType>Package</SourceType>
       <SourceId>MedicalTools</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MedicalTools</BasePath>
+<<<<<<< HEAD
       <RelativePath>Image/7b8dcf80-5e35-4be3-abf9-31ee6c179d24RMI_8423.JPG</RelativePath>
+=======
+      <RelativePath>img/2.jpeg</RelativePath>
+>>>>>>> 6008b30f3b15dcb5a4ec7edce980587fe71fec23
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -4622,6 +4640,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+<<<<<<< HEAD
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\7b8dcf80-5e35-4be3-abf9-31ee6c179d24RMI_8423.JPG))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\c36dd560-526b-4c6d-86c4-d3ae4afbd68fproject1.jpg))">
@@ -4671,6 +4690,9 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\f3ec2ef9-d477-4c40-ad9f-ef8e5e5b6e20RMI_8385.JPG))</OriginalItemSpec>
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\2.jpeg))</OriginalItemSpec>
+>>>>>>> 6008b30f3b15dcb5a4ec7edce980587fe71fec23
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\site.js))">
       <SourceType>Package</SourceType>

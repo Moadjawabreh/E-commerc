@@ -8,14 +8,20 @@
     ViewData["Title"] = "Categories";
 }
 
-<h1>Categories</h1>
 
-<p>
-    <a asp-controller="Admin" asp-action="CreatCategories" class="btn btn-primary">Add New Category</a>
-</p>
+<div class="container">
 
-<div class="table-responsive">
-    <table class="table table-striped table-hover">
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-primary"> Category List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Admin" asp-action="CreatCategories" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> Create a new Category
+            </a>
+        </div>
+    </div>
+    <table class="table table-bordered table-striped">
         <thead class="thead-dark">
             <tr>
                 <th>
@@ -29,7 +35,9 @@
                 </th>
             </tr>
         </thead>
+
         <tbody>
+
             @foreach (var item in Model)
             {
                 <tr>
@@ -39,17 +47,21 @@
                     <td>
                         <img src="@Html.DisplayFor(modelItem => item.Image)" alt="Category Image" class="img-thumbnail" style="max-width: 100px; max-height: 100px;" />
                     </td>
-                    <td>
-                        <div class="btn-group" role="group">
-                            <a asp-action="UpdateCategories" asp-route-id="@item.ID" class="btn btn-warning">Edit</a>
-                            <a class="btn btn-danger deletebtn" data-id="@item.ID">Delete</a>
-                        </div>
+                    <td class="text-center">
+                        <a asp-action="UpdateCategories" asp-route-id="@item.ID" class="btn btn-warning">Edit</a>
+                        <a class="btn btn-danger deletebtn" data-id="@item.ID">Delete</a>
                     </td>
+
                 </tr>
+
             }
-        </tbody>
     </table>
+
 </div>
+
+
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
