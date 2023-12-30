@@ -1,215 +1,462 @@
-﻿
+﻿@using System.Globalization
+@model MedicalTools.Models.Product
+
+<style>
+    #blurContainer {
+        position: relative;
+    }
+
+    .blur-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px); /* Adjust the blur strength as needed */
+        z-index: 999;
+        display: none;
+    }
+
+    .popup-form {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        width: 40% fit-content;
+        height: 80% fit-content;
+        border: 2px solid #2C4964;
+        border-radius: 5px;
+    }
 
 
-<div class="hero-wrap hero-bread" style=" background-image: url('@Url.Content("~/customer/images/header.jpg")')">
-  
+        .popup-form label,
+        .popup-form textarea,
+        .popup-form button {
+            display: block;
+            margin-bottom: 15px;
+        }
 
-    <div class="container">
-        <div class="row no-gutters slider-text align-items-center justify-content-center">
-            <div class="col-md-9 ftco-animate text-center">
-                <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span class="mr-2"><a href="index.html">Product</a></span> <span>Product Single</span></p>
-                <h1 class="mb-0 bread">Product Single</h1>
+    .AddToCartBtn {
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+        border-top-width: 0px !important;
+        border-left-width: 0px !important;
+        border-bottom-width: 0px !important;
+        border-right-width: 0px !important;
+        color: black !important;
+        padding: 0px !important ;
+        padding-bottom: 20px !important;
+        boarder: none !important;
+    }
+
+    #btnMomen{
+        color: #fff !important;
+        background-color: #007bff !important;
+        border-color: #007bff !important;
+       
+    }
+
+        #btnMomen:hover {
+            color: #fff !important;
+            background-color: #0069d9 !important;
+            border-color: #0062cc !important;
+    }
+
+        #btnMomen:focus, #btnMomen.focus {
+            -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5) !important;
+            box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5) !important;
+    }
+
+        #btnMomen.disabled, #btnMomen:disabled {
+            color: #fff !important;
+            background-color: #007bff !important;
+            border-color: #007bff !important;
+    }
+
+        #btnMomen:not(:disabled):not(.disabled):active, #btnMomen:not(:disabled):not(.disabled).active,
+        .show > #btnMomen.dropdown-toggle {
+            color: #fff !important;
+            background-color: #0062cc !important;
+            border-color: #005cbf !important;
+    }
+
+            #btnMomen:not(:disabled):not(.disabled):active:focus, #btnMomen:not(:disabled):not(.disabled).active:focus,
+            .show > #btnMomen.dropdown-toggle:focus {
+                -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5) !important;
+                box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5) !important;
+        }
+
+
+    .form-control input-number {
+        color: black !important;
+    }
+
+</style>
+<div id="blurContainer">
+
+
+    <div class="hero-wrap hero-bread" style=" background-image: url('@Url.Content("~/customer/images/header.jpg")')">
+
+
+        <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-center">
+                <div class="col-md-9 ftco-animate text-center">
+                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span class="mr-2"><a href="index.html">Product</a></span> <span>Product Single</span></p>
+                    <h1 class="mb-0 bread">Product Single</h1>
+                </div>
             </div>
         </div>
     </div>
+
+    <section class="ftco-section">
+        <form asp-controller="Customer"
+              asp-action="AddToCart"  method="post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-5 ftco-animate">
+                        <a href="~/Customer/images/menu-2.jpg" class="image-popup"><img src="@Model.UrlImage" class="img-fluid" alt="Colorlib Template"></a>
+                    </div>
+                    <div class="col-lg-6 product-details pl-md-5 ftco-animate">
+                        <h3>@Model.Name</h3>
+
+                        <p class="price"><span>@Model.Price</span></p>
+
+                        <p>@Model.Description  </p>
+                        <div class="row mt-4">
+
+                            <div class="w-100"></div>
+                            <div class="input-group col-md-6 d-flex mb-3">
+
+                                <span class="input-group-btn mr-2">
+                                    <button type="button" class="quantity-btn" data-type="minus" data-field="quantity">
+                                        <i class="ion-ios-remove"></i>
+                                    </button>
+                                </span>
+
+                                <input type="text" id="quantity" name="quantity" class="form-control input-number" style=" color:black !important;" value="1" min="0" max="100">
+                                <span class="input-group-btn ml-2">
+
+                                    <button type="button" class="quantity-btn" data-type="plus" data-field="quantity">
+                                        <i class="ion-ios-add"></i>
+                                    </button>
+
+                                </span>
+                            </div>
+
+                            <div class="w-100"></div>
+
+                        </div>
+                        <p>          
+                            @* <a asp-action="addToCart" asp-route-id="@Model.ID" style="height: 57px !important;" class="btn btn-black py-3 px-5" > <button type="submit" class="AddToCartBtn">Add to cart</button></a> *@
+                           <input asp-for="@Model.ID"  hidden/>
+                            <button style="height: 55px !important;border-radius: 30px !important;padding-right: 40px !important; padding-left: 40px !important ; background-color:black !important ;border-color:black !important" class="btn btn-primary" id="btnMomen" type="submit">
+                                Add to cart
+                            </button>
+
+                            <!--Leave Feedback-->
+
+                            
+                            <a href="#" class="leave-review-btn btn btn-primary"
+                               style="padding-top: 16px; padding-right: 28px; padding-bottom: 16px; padding-left: 28px;">
+                                <span> Add feedback  <i class="ion-ios-add ml-1"></i></span>
+                            </a>
+
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </section>
+
+
+    <div id="reviewFormPopup" class="popup-form" style="background-color:#F2F2F2 ">
+        <form id="reviewForm" asp-action="AddFeedbackForProduct" method="post">
+            <label for="reviewInput"><span style="color:#2C4964 ; font-weight:bold">Leave Your Feedback &#9998;</span> </label>
+            <input name="id" value="@Model.ID" hidden />
+            <textarea id="reviewInput" name="reviewInput" rows="13" cols="50" required></textarea>
+            <button type="submit" class="btn btn-success">Submit Feedback</button>
+        </form>
+    </div>
+
+
+
+
+    <section class="ftco-section testimony-section" style="padding-top:50px">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-7 heading-section ftco-animate">
+                    <h2 class="mb-4">Our satisfied customer says</h2>
+                    <p> Your feedback plays a crucial role in helping us enhance our products and services.</p>
+                </div>
+            </div>
+            <div class="row ftco-animate">
+                <div class="col-md-12">
+                    <div class="carousel-testimony owl-carousel">
+                        @foreach (var item in Model.FeedbackForProducts)
+                        {
+                            <div class="item">
+                                <div class="testimony-wrap p-4 pb-5">
+                                    <div class="user-img mb-5" style="background-image: url(@item.User.ImageUrl)">
+                                        <span class="quote d-flex align-items-center justify-content-center">
+                                            <i class="icon-quote-left"></i>
+                                        </span>
+                                    </div>
+                                    <div class="text">
+                                        <p class="mb-5 pl-4 line">@item.Text</p>
+                                        <p class="name">@item.User.Name</p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    @* <section class="ftco-section bg-light">
+    <div class="container">
+    <div class="row justify-content-center mb-5 pb-3">
+
+    <div class="row ftco-animate fadeInUp ftco-animated">
+    <div class="col-md-12">
+    <div class="carousel-testimony owl-carousel owl-loaded owl-drag">
+
+
+
+
+
+    <div class="owl-stage-outer">
+    <div class="owl-stage" style="transition: all 0s ease 0s; width: 1200px; transform: translate3d(240px, 0px, 0px);">
+    @foreach (var f in @Model.FeedbackForProducts)
+    {
+    <div class="owl-item active center" style="width: 210px; margin-right: 30px;">
+    <div class="item">
+    <div class="testimony-wrap p-4 pb-5">
+    <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
+    <span class="quote d-flex align-items-center justify-content-center">
+    <i class="icon-quote-left"></i>
+    </span>
+    </div>
+    <div class="text">
+    <p class="mb-5 pl-4 line">@f.Text</p>
+    <p class="name">@f.User.Name</p>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    }
+    </div>
+    </div><div class="owl-nav disabled"><button role="presentation" class="owl-prev"><span class="ion-ios-arrow-back"></span></button><button role="presentation" class="owl-next"><span class="ion-ios-arrow-forward"></span></button></div><div class="owl-dots"><button class="owl-dot active"><span></span></button><button class="owl-dot"><span></span></button><button class="owl-dot"><span></span></button><button class="owl-dot"><span></span></button><button class="owl-dot"><span></span></button></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    </section> *@
+
+    <section class="ftco-section bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-3 pb-3">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    <h2 class="mb-4">Ralated Products</h2>
+                    <p>Enhance your medical facility's capabilities with our carefully curated selection of related products designed to complement your current setup</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                @foreach (var product in (List<Product>)(ViewBag.seveProducts))
+                    if (product.percentageOfDiscount != 1)
+                    {
+                        <div class="col-sm col-md-6 col-lg ftco-animate">
+                            <div class="product">
+                                <a href="#" class="img-prod">
+                                    <img class="img-fluid" src="@Url.Content(product.UrlImage)" alt="Colorlib Template">
+                                    <span class="status">@(100 - product.percentageOfDiscount * 100)%</span>
+                                    <div class="overlay"></div>
+                                </a>
+                                <div class="text py-3 px-3">
+                                    <h3><a href="#">@product.Name</a></h3>
+                                    <div class="d-flex">
+                                        <div class="pricing">
+                                            @{
+                                                var priceAfterDs = product.Price * product.percentageOfDiscount;
+                                            }
+                                            <p class="price"><span class="mr-2 price-dc">@product.Price.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span><span class="price-sale">@priceAfterDs.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span></p>
+                                        </div>
+                                    </div>
+                                    <p class="bottom-area d-flex px-3">
+                                        <a asp-action="addToCart" asp-route-id="@product.ID" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                                        <a asp-action="addOrder" asp-route-id="@product.ID" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-sm col-md-6 col-lg ftco-animate">
+                            <div class="product">
+                                <a href="#" class="img-prod">
+                                    <img class="img-fluid" src="@Url.Content(product.UrlImage)" alt="Colorlib Template">
+                                    <div class="overlay"></div>
+                                </a>
+                                <div class="text py-3 px-3">
+                                    <h3><a href="#">@product.Name</a></h3>
+                                    <div class="d-flex">
+                                        <div class="pricing">
+                                            <p class="price"><span>@product.Price.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span></p>
+                                        </div>
+                                    </div>
+                                    <p class="bottom-area d-flex px-3">
+                                        <a asp-action="AddToCart" asp-route-id="@product.ID" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                                        <a asp-action="addOrder" asp-route-id="@product.ID" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+
+                @*   @foreach (var p in (List<Product>)(ViewBag.seveProducts))
+                {
+                <div class="col-sm col-md-6 col-lg ftco-animate">
+                <div class="product">
+                <a href="#" class="img-prod">
+                <img class="img-fluid" src="@p.UrlImage" alt="Product Image">
+                <span class="status">30%</span>
+                <div class="overlay"></div>
+                </a>
+
+                <div class="text py-3 px-3">
+                <h3><a href="#"> @p.Name</a></h3>
+                <div class="d-flex">
+                <div class="pricing">
+                @{
+                var postPrice = p.Price * p.percentageOfDiscount;
+                }
+
+                <p class="price"><span class="mr-2 price-dc">@p.Price</span><span class="price-sale">@postPrice</span></p>
+                </div>
+                <div class="rating">
+                @*    <p class="text-right">
+                <a href="#"><span class="ion-ios-star-outline"></span></a>
+                <a href="#"><span class="ion-ios-star-outline"></span></a>
+                <a href="#"><span class="ion-ios-star-outline"></span></a>
+                <a href="#"><span class="ion-ios-star-outline"></span></a>
+                <a href="#"><span class="ion-ios-star-outline"></span></a>
+                </p> *@
+            </div>
+        </div>
+        <p class="bottom-area d-flex px-3">
+            <a href="/Customer/Cart?id=@Model.ID&" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+            <a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+
+        </p>
 </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
 
-<section class="ftco-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 mb-5 ftco-animate">
-                <a href="~/Customer/images/menu-2.jpg" class="image-popup"><img src="~/Customer/images/product-1.jpg" class="img-fluid" alt="Colorlib Template"></a>
-            </div>
-            <div class="col-lg-6 product-details pl-md-5 ftco-animate">
-                <h3>Young Woman Wearing Dress</h3>
-                <div class="rating d-flex">
-                    <p class="text-left mr-4">
-                        <a href="#" class="mr-2">5.0</a>
-                        <a href="#"><span class="ion-ios-star-outline"></span></a>
-                        <a href="#"><span class="ion-ios-star-outline"></span></a>
-                        <a href="#"><span class="ion-ios-star-outline"></span></a>
-                        <a href="#"><span class="ion-ios-star-outline"></span></a>
-                        <a href="#"><span class="ion-ios-star-outline"></span></a>
-                    </p>
-                    <p class="text-left mr-4">
-                        <a href="#" class="mr-2" style="color: #000;">100 <span style="color: #bbb;">Rating</span></a>
-                    </p>
-                    <p class="text-left">
-                        <a href="#" class="mr-2" style="color: #000;">500 <span style="color: #bbb;">Sold</span></a>
-                    </p>
-                </div>
-                <p class="price"><span>$120.00</span></p>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <p>
-                    On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
-                </p>
-                <div class="row mt-4">
-                    <div class="col-md-6">
-                        <div class="form-group d-flex">
-                            <div class="select-wrap">
-                                <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                                <select name="" id="" class="form-control">
-                                    <option value="">Small</option>
-                                    <option value="">Medium</option>
-                                    <option value="">Large</option>
-                                    <option value="">Extra Large</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="input-group col-md-6 d-flex mb-3">
-                        <span class="input-group-btn mr-2">
-                            <button type="button" class="quantity-left-minus btn" data-type="minus" data-field="">
-                                <i class="ion-ios-remove"></i>
-                            </button>
-                        </span>
-                        <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1" min="1" max="100">
-                        <span class="input-group-btn ml-2">
-                            <button type="button" class="quantity-right-plus btn" data-type="plus" data-field="">
-                                <i class="ion-ios-add"></i>
-                            </button>
-                        </span>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col-md-12">
-                        <p style="color: #000;">80 piece available</p>
-                    </div>
-                </div>
-                <p><a href="cart.html" class="btn btn-black py-3 px-5">Add to Cart</a></p>
-            </div>
-        </div>
-    </div>
-</section>
 
-<section class="ftco-section bg-light">
-    <div class="container">
-        <div class="row justify-content-center mb-3 pb-3">
-            <div class="col-md-12 heading-section text-center ftco-animate">
-                <h2 class="mb-4">Ralated Products</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm col-md-6 col-lg ftco-animate">
-                <div class="product">
-                    <a href="#" class="img-prod">
-                        <img class="img-fluid" src="~/Customer/images/product-1.jpg" alt="Colorlib Template">
-                        <span class="status">30%</span>
-                        <div class="overlay"></div>
-                    </a>
-                    <div class="text py-3 px-3">
-                        <h3><a href="#">Floral Jackquard Pullover</a></h3>
-                        <div class="d-flex">
-                            <div class="pricing">
-                                <p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span></p>
-                            </div>
-                            <div class="rating">
-                                <p class="text-right">
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="bottom-area d-flex px-3">
-                            <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-                            <a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm col-md-6 col-lg ftco-animate">
-                <div class="product">
-                    <a href="#" class="img-prod">
-                        <img class="img-fluid" src="~/Customer/images/product-2.jpg" alt="Colorlib Template">
-                        <div class="overlay"></div>
-                    </a>
-                    <div class="text py-3 px-3">
-                        <h3><a href="#">Floral Jackquard Pullover</a></h3>
-                        <div class="d-flex">
-                            <div class="pricing">
-                                <p class="price"><span>$120.00</span></p>
-                            </div>
-                            <div class="rating">
-                                <p class="text-right">
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="bottom-area d-flex px-3">
-                            <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-                            <a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm col-md-6 col-lg ftco-animate">
-                <div class="product">
-                    <a href="#" class="img-prod">
-                        <img class="img-fluid" src="~/Customer/images/product-3.jpg" alt="Colorlib Template">
-                        <div class="overlay"></div>
-                    </a>
-                    <div class="text py-3 px-3">
-                        <h3><a href="#">Floral Jackquard Pullover</a></h3>
-                        <div class="d-flex">
-                            <div class="pricing">
-                                <p class="price"><span>$120.00</span></p>
-                            </div>
-                            <div class="rating">
-                                <p class="text-right">
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="bottom-area d-flex px-3">
-                            <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-                            <a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm col-md-6 col-lg ftco-animate">
-                <div class="product">
-                    <a href="#" class="img-prod">
-                        <img class="img-fluid" src="~/Customer/images/product-4.jpg" alt="Colorlib Template">
-                        <div class="overlay"></div>
-                    </a>
-                    <div class="text py-3 px-3">
-                        <h3><a href="#">Floral Jackquard Pullover</a></h3>
-                        <div class="d-flex">
-                            <div class="pricing">
-                                <p class="price"><span>$120.00</span></p>
-                            </div>
-                            <div class="rating">
-                                <p class="text-right">
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                    <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="bottom-area d-flex px-3">
-                            <a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-                            <a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $(".leave-review-btn").click(function () {
+            // Show the blur background and popup form
+            $("#blurContainer").append("<div class='blur-background'></div>");
+            $("#blurContainer .blur-background, #reviewFormPopup").fadeIn();
+        });
+
+        // $("#reviewForm").submit(function (event) {
+        //     event.preventDefault();
+        //     var newUrl = "/Customer/AddFeedbackForProduct?reviewInput=" + $("#reviewInput").val() + "&ID=@Model.ID";
+        //     window.location.href = newUrl;
+        // });
+
+        // Close the popup form and remove the blur background
+        $(document).on("click", ".blur-background, .close-popup-btn", function () {
+            $("#blurContainer .blur-background, #reviewFormPopup").fadeOut(function () {
+                $(this).remove();
+            });
+        });
+    });
+
+    // $(document).ready(function () {
+    //     $(".quantity-btn").on("click", function () {
+    //         var type = $(this).data("type");
+    //         var inputField = $("#" + $(this).data("field"));
+
+    //         // Get the current value of the input field
+    //         var currentValue = parseInt(inputField.val());
+
+    //         // Update the value based on the button type (plus or minus)
+    //         if (type === "minus" && currentValue > 1) {
+    //             inputField.val(currentValue - 1);
+    //         } else if (type === "plus") {
+    //             inputField.val(currentValue + 1);
+    //         }
+    //     });
+    // });
+    $(document).ready(function () {
+        $(".quantity-btn").on("click", function () {
+            console.log("Quantity button clicked!");
+            var type = $(this).data("type");
+            var inputField = $("#" + $(this).data("field"));
+
+            console.log("Type:", type);
+            console.log("Input Field:", inputField);
+
+            // Get the current value of the input field
+            var currentValue = parseInt(inputField.val());
+            console.log("Current Value:", currentValue);
+
+            // Update the value based on the button type (plus or minus)
+            if (type === "minus" && currentValue > 1) {
+                inputField.val(currentValue - 1);
+            } else if (type === "plus") {
+                inputField.val(currentValue + 1);
+            }
+        });
+    });
+
+
+</script>
+
+
+
+
+<!--@foreach (var f in @Model.FeedbackForProducts)-->
+
+
+
+
+
+
+
+
+

@@ -9,63 +9,77 @@ using static NuGet.Packaging.PackagingConstants;
 
 namespace MedicalTools.Controllers
 {
-	public class CustomerController : Controller
-	{
+    public class CustomerController : Controller
+    {
 
 
-		private readonly ApplicationContext _db;
+        private readonly ApplicationContext _db;
         private readonly IWebHostEnvironment webHostEnvironment;
         public CustomerController(ApplicationContext db, IWebHostEnvironment environment)
-		{
-			_db = db;
+        {
+            _db = db;
             webHostEnvironment = environment;
         }
-        public  IActionResult Index()
-       {
+        public IActionResult Index()
+        {
             var products = _db.products.Include(p => p.Category).ToList();
             return View(products);
         }
 
         [ActionName("Product")]
         public IActionResult Products(int id)
-		{
-            var products = _db.products.Include(p => p.Category).Where(p => p.categoryID == id);
+        {
+            var products = _db.products.Include(p => p.Category).Where(p => p.categoryID == id).ToList();
             return View(products);
         }
 
-		public IActionResult SingleProduct()
-		{
-			return View();
-		}
-		public IActionResult Profile()
-		{
-			string? userJson = HttpContext.Session.GetString("LiveUser");
-			var userSession = JsonConvert.DeserializeObject<User>(userJson);
-			var user = _db.users.Find(userSession.ID);
-			return View(user);
-			//var user = new User();
-			//return View(user);
-		}
 
-		[HttpPost]
-		public IActionResult Profile(User user)
-		{
-			if (user.ImageFile != null)
-			{
-				string wwwRootPath = webHostEnvironment.WebRootPath;
-				string fileName = Guid.NewGuid().ToString() + "" +
-				user.ImageFile.FileName;
-				string path = Path.Combine(wwwRootPath + "/Image/", fileName);
-				using (var fileStream = new FileStream(path, FileMode.Create))
-				{
-					user.ImageFile.CopyTo(fileStream);
-				}
-				user.ImageUrl = "/Image/"+fileName;
-			}
 
-			_db.Update(user);
-			_db.SaveChanges();
-			return View(user);
+        public IActionResult SingleProduct(int id)
+        {
+            if (id != 0)
+            {
+                Product product = _db.products
+         .Include(p => p.FeedbackForProducts)
+         .ThenInclude(f => f.User)
+         .SingleOrDefault(p => p.ID == id);
+
+                ViewBag.seveProducts = _db.products.Where(p => p.categoryID == product.categoryID).Take(4).ToList();
+                return View(product);
+
+            }
+            return View();
+
+        }
+        public IActionResult Profile()
+        {
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            var userSession = JsonConvert.DeserializeObject<User>(userJson);
+            var user = _db.users.Find(userSession.ID);
+            return View(user);
+            //var user = new User();
+            //return View(user);
+        }
+
+        [HttpPost]
+        public IActionResult Profile(User user)
+        {
+            if (user.ImageFile != null)
+            {
+                string wwwRootPath = webHostEnvironment.WebRootPath;
+                string fileName = Guid.NewGuid().ToString() + "" +
+                user.ImageFile.FileName;
+                string path = Path.Combine(wwwRootPath + "/Image/", fileName);
+                using (var fileStream = new FileStream(path, FileMode.Create))
+                {
+                    user.ImageFile.CopyTo(fileStream);
+                }
+                user.ImageUrl = "/Image/" + fileName;
+            }
+
+            _db.Update(user);
+            _db.SaveChanges();
+            return View(user);
         }
 
         public IActionResult Cart()
@@ -177,11 +191,11 @@ namespace MedicalTools.Controllers
         }
         public IActionResult About()
         {
-            List<FeedbackForWeb> obj = _db.feedbackForWebs.Include(f=>f.User).Where(s => s.Status == true).ToList();
+            List<FeedbackForWeb> obj = _db.feedbackForWebs.Include(f => f.User).Where(s => s.Status == true).ToList();
             return View(obj);
         }
 
-        public IActionResult AddToCart(int id)
+        public IActionResult AddToCart(int id,int quantity)
         {
             string? userJson = HttpContext.Session.GetString("LiveUser");
             if (userJson == null)
@@ -191,9 +205,19 @@ namespace MedicalTools.Controllers
             }
             else
             {
+                
                 var user = JsonConvert.DeserializeObject<User>(userJson);
                 var cart = new Cart();
-                cart.UserId= user.ID;
+                if(quantity==null || quantity == 0)
+                {
+                    cart.Quantity = 1;
+
+                }
+                else
+                {
+                    cart.Quantity = quantity;
+                }
+                cart.UserId = user.ID;
                 cart.productId = id;
                 _db.cart.Add(cart);
                 _db.SaveChanges();
@@ -210,6 +234,66 @@ namespace MedicalTools.Controllers
             HttpContext.Session.Remove("LiveUser");
             return RedirectToAction("Index");
         }
+
+
+        public IActionResult AddFeedbackForProduct() { return View(); }
+        [HttpPost]
+        public IActionResult AddFeedbackForProduct(string reviewInput, int ID)
+        {
+
+
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("SingleProduct", "Customer", new { id = ID });
+                return RedirectToAction("Index", "Login");
+            }
+            else
+            {
+                var user = JsonConvert.DeserializeObject<User>(userJson);
+
+                int productId = ID; // Replace with the actual product ID
+
+
+
+                FeedbackForProduct feedbackForProduct = new FeedbackForProduct();
+                feedbackForProduct.Text = reviewInput;
+                feedbackForProduct.userID = user.ID;
+                feedbackForProduct.productID = ID;
+                _db.feedbackForProducts.Add(feedbackForProduct);
+                _db.SaveChanges();
+                TempData["success"] = "Added FeedBack successfully";
+                return RedirectToAction("SingleProduct", new { ID = productId });
+            }
+        }
+
+
+        public IActionResult AddFeedbackForWeb() { return View(); }
+        [HttpPost]
+        public IActionResult AddFeedbackForWeb(string reviewInput)
+        {
+
+
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("About", "Customer");
+                return RedirectToAction("Index", "Login");
+            }
+            else
+            {
+                var user = JsonConvert.DeserializeObject<User>(userJson);
+                var feedBackForWeb=new FeedbackForWeb();
+                feedBackForWeb.userID = user.ID;
+                feedBackForWeb.Text= reviewInput;
+                _db.feedbackForWebs.Add(feedBackForWeb);
+                _db.SaveChanges();
+                TempData["success"] = "Added FeedBack successfully";
+                return RedirectToAction("About");
+            }
+        }
+
+
 
     }
 }

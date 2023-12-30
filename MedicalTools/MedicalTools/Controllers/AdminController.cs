@@ -4,15 +4,19 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace MedicalTools.Controllers
 {
     public class AdminController : Controller
     {
         private ApplicationContext _context;
-        public AdminController(ApplicationContext context)
+        private readonly IWebHostEnvironment webHostEnvironment;
+        public AdminController(ApplicationContext context, IWebHostEnvironment environment)
         {
             _context = context;
+            webHostEnvironment = environment;
+
         }
 
         public IActionResult Index()
@@ -134,11 +138,14 @@ namespace MedicalTools.Controllers
         // ------- Create
         public IActionResult CreatProduct()
         {
+
             IEnumerable<SelectListItem> categories = _context.categories.ToList().Select(u => new SelectListItem
             {
                 Text = u.Name,
                 Value = u.ID.ToString()
             });
+
+
             ViewBag.categoriesList = categories;
 
             return View();
@@ -149,9 +156,26 @@ namespace MedicalTools.Controllers
         {
             if (product != null)
             {
+                if (product.ImageFile != null)
+                 {
+                string wwwRootPath = webHostEnvironment.WebRootPath;
+                string fileName = Guid.NewGuid().ToString() + "" +
+                product.ImageFile.FileName;
+                string path = Path.Combine(wwwRootPath + "/Image/", fileName);
+                using (var fileStream = new FileStream(path, FileMode.Create))
+                {
+                    product.ImageFile.CopyTo(fileStream);
+                }
+                product.UrlImage = "/Image/" + fileName;
+
+                }
+
+
+            
                 _context.products.Add(product);
                 _context.SaveChanges();
                 return RedirectToAction("Products");
+
             }
             return View();
         }
@@ -193,9 +217,31 @@ namespace MedicalTools.Controllers
         [HttpPost]
         public IActionResult UpdateProduct(Product product)
         {
-            _context.products.Update(product);
-            _context.SaveChanges();
-            return RedirectToAction("Products");
+
+            if (product != null)
+            {
+                if (product.ImageFile != null)
+                {
+                    string wwwRootPath = webHostEnvironment.WebRootPath;
+                    string fileName = Guid.NewGuid().ToString() + "" +
+                    product.ImageFile.FileName;
+                    string path = Path.Combine(wwwRootPath + "/Image/", fileName);
+                    using (var fileStream = new FileStream(path, FileMode.Create))
+                    {
+                        product.ImageFile.CopyTo(fileStream);
+                    }
+                    product.UrlImage = "/Image/" + fileName;
+
+                }
+
+
+
+                _context.products.Update(product);
+                _context.SaveChanges();
+                return RedirectToAction("Products");
+
+            }
+            return View();
 
         }
 

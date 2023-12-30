@@ -67,6 +67,32 @@ namespace MedicalTools.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("categories");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            Image = "",
+                            Name = "Electronic"
+                        },
+                        new
+                        {
+                            ID = 2,
+                            Image = "",
+                            Name = "Diagnostic"
+                        },
+                        new
+                        {
+                            ID = 3,
+                            Image = "",
+                            Name = "Surgical"
+                        },
+                        new
+                        {
+                            ID = 4,
+                            Image = "",
+                            Name = "Storage && Transport"
+                        });
                 });
 
             modelBuilder.Entity("MedicalTools.Models.FeedbackForProduct", b =>

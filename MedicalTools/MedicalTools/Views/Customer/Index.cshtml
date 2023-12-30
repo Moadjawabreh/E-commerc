@@ -17,9 +17,9 @@
                             <span class="subheading"> E-Commerce Shop</span>
                             <div class="horizontal">
                                 <h3 class="vr" style="background-image: url(images/divider.jpg);">Stablished Since 2000</h3>
-                                <h1 class="mb-4 mt-3"><br><span> E-MedicalTools</span></h1>
-                                <p>Our website is a website dedicated to selling medical equipment.</p>
-                                <p><a  class="btn btn-primary">Discover Now</a></p>
+                                <h1 class="mb-4 mt-3"><br><span>Products Range</span></h1>
+                                <p>Explore our extensive catalog featuring a diverse array of medical equipment. From state-of-the-art diagnostic devices to precision surgical instruments and cutting-edge patient monitoring systems, MediTech offers a comprehensive range of products designed to meet the evolving needs of the healthcare industry</p>
+                                <p><a asp-action="About"  class="btn btn-primary">About us</a></p>
                             </div>
                         </div>
                     </div>
@@ -38,10 +38,10 @@
                             <span class="subheading"> E-Commerce Shop</span>
                             <div class="horizontal">
                                 <h3 class="vr" style="background-image: url(images/divider.jpg);">Best eCommerce Online Shop</h3>
-                                <h1 class="mb-4 mt-3"><br><span> E-MedicalTools</span></h1>
-                                <p>It has all the necessary medical equipment, whether it is a clinic or a hospital</p>
+                                <h1 class="mb-4 mt-3"><br><span> About Us</span></h1>
+                                <p>At MediTech, our mission is to provide top-notch medical equipment that empowers healthcare professionals and institutions to deliver exceptional patient care. With a commitment to quality and innovation, we aim to be your trusted partner in procuring essential medical tools.</p>
 
-                                <p><a  class="btn btn-primary px-5 py-3 mt-3">Shop Now</a></p>
+                                <p><a asp-action="Contact" class="btn btn-primary px-5 py-3 mt-3">Contact us</a></p>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
             {
                 if(item.percentageOfDiscount!=1)
                 {
-                    <div class="col-sm col-md-6 col-lg ftco-animate">
+                    <div class="col-sm col-md-3 ftco-animate">
                         <div class="product">
                             <a  class="img-prod">
                                 <img class="img-fluid" src="@item.UrlImage">
@@ -87,7 +87,7 @@
                                 </div>
                                 <p class="bottom-area d-flex px-3">
                                     <a class="add-to-cart text-center py-2 mr-1" asp-action="AddToCart" asp-controller="Customer" asp-route-id="@item.ID"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-                                    <a  class="buy-now text-center py-2" asp-action="Cart" asp-controller="Customer">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                                    <a class="buy-now text-center py-2" asp-action="SingleProduct" asp-controller="Customer" asp-route-id="@item.ID">More Details<span><i class="bi bi-info-circle"></i></span></a>
                                 </p>
                             </div>
                         </div>

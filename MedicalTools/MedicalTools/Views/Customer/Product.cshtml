@@ -9,6 +9,7 @@
     categoeryName = p.Category.Name;
     break;
 }
+<div class="custom-wrapper-class">
 <section class="ftco-section bg-light">
     <div class="container">
         <div class="row justify-content-center mb-3 pb-3">
@@ -17,13 +18,17 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div  class="container ">
+
         <div class="row">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+
             @foreach(var product in Model)
             {
                 if(product.percentageOfDiscount!=1)
                 {
-                    <div class="col-sm col-md-6 col-lg ftco-animate">
+
+                            <div class="col-sm col-md-3  ftco-animate">
                         <div class="product">
                             <a href="#" class="img-prod">
                                 <img class="img-fluid" src="@Url.Content(product.UrlImage)" alt="Colorlib Template">
@@ -41,8 +46,8 @@
                                     </div>
                                 </div>
                                 <p class="bottom-area d-flex px-3">
-                                    <a asp-action="addToCart" asp-route="@product.ID" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-                                    <a asp-action="addOrder" asp-route="@product.ID" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                                    <a asp-action="addToCart" asp-route-id="@product.ID" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                                            <a asp-action="SingleProduct" asp-route-id="@product.ID" class="buy-now text-center py-2">More Details<span><i class="bi bi-info-circle"></i></span></a>
                                 </p>
                             </div>
                         </div>
@@ -50,7 +55,7 @@
                 }
                 else
                 {
-                    <div class="col-sm col-md-6 col-lg ftco-animate">
+                    <div class="col-sm col-md-3  ftco-animate">
                         <div class="product">
                             <a href="#" class="img-prod">
                                 <img class="img-fluid" src="@Url.Content(product.UrlImage)" alt="Colorlib Template">
@@ -64,14 +69,22 @@
                                     </div>
                                 </div>
                                 <p class="bottom-area d-flex px-3">
-                                    <a asp-action="addToCart" asp-route="@product.ID" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-                                    <a asp-action="addOrder" asp-route="@product.ID" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                                    <a asp-action="addToCart" asp-route-id="@product.ID" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                                            <a asp-action="SingleProduct" asp-route-id="@product.ID" class="buy-now text-center py-2">More Details<span><i class="bi bi-info-circle"></i></span></a>
                                 </p>
                             </div>
                         </div>
                     </div>
                 }
             }
+            
+        </div>
         </div>
     </div>
+    
 </section>
+
+</div>
+
+
+  

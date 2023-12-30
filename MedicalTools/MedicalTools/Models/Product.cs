@@ -18,6 +18,10 @@ namespace MedicalTools.Models
         public string Description { get; set; }
 
         public double percentageOfDiscount { get; set; } = 1;
+
+        [NotMapped]
+        public IFormFile? ImageFile { get; set; }
+
         [Required]
         public string UrlImage { get; set; }
 
