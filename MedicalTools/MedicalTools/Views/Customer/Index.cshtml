@@ -1,5 +1,5 @@
 ﻿@using System.Globalization
-@model IEnumerable<MedicalTools.Models.Product>
+@model List<MedicalTools.Models.Product>
 @{
     ViewData["Title"] = "Index";
 }
@@ -19,7 +19,7 @@
                                 <h3 class="vr" style="background-image: url(images/divider.jpg);">Stablished Since 2000</h3>
                                 <h1 class="mb-4 mt-3"><br><span> E-MedicalTools</span></h1>
                                 <p>Our website is a website dedicated to selling medical equipment.</p>
-                                <p><a href="#" class="btn btn-primary">Discover Now</a></p>
+                                <p><a  class="btn btn-primary">Discover Now</a></p>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                                 <h1 class="mb-4 mt-3"><br><span> E-MedicalTools</span></h1>
                                 <p>It has all the necessary medical equipment, whether it is a clinic or a hospital</p>
 
-                                <p><a href="#" class="btn btn-primary px-5 py-3 mt-3">Shop Now</a></p>
+                                <p><a  class="btn btn-primary px-5 py-3 mt-3">Shop Now</a></p>
                             </div>
                         </div>
                     </div>
@@ -62,30 +62,39 @@
         <div class="row">
             @foreach (var item in Model)
             {
-                <div class="col-sm col-md-6 col-lg ftco-animate">
-                    <div class="product">
-                        <a href="#" class="img-prod">
-                            <img class="img-fluid" src="~/@item.UrlImage">
-                            <span class="status">30%</span>
-                          @* <div class="overlay"></div> *@
-                        </a>
-                        <div class="text py-3 px-3">
-                            <h3><a href="#">@item.Name</a></h3>
-                            <div class="d-flex">
-                                <div class="pricing">
-                                    @{
-                                        var sum = @item.Price * @item.percentageOfDiscount; 
-                                    }
-                                    <p class="price"><span class="mr-2 price-dc">@item.Price.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span><span class="price-sale">@sum.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span></p>
+                if(item.percentageOfDiscount!=1)
+                {
+                    <div class="col-sm col-md-6 col-lg ftco-animate">
+                        <div class="product">
+                            <a  class="img-prod">
+                                <img class="img-fluid" src="@item.UrlImage">
+                                <span class="status">
+                                    @(100 - item.percentageOfDiscount * 100)%
+                                </span>
+                                <div class="overlay"></div>
+                            </a>
+                            <div class="text py-3 px-3">
+                                <h3>@item.Name</h3>
+                                <div class="d-flex">
+                                    <div class="pricing">
+                                        @{
+
+                                            var sum = @item.Price * @item.percentageOfDiscount;
+
+                                        }
+                                        <p class="price"><span class="mr-2 price-dc">@item.Price.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span><span class="price-sale">@sum.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span></p>
+                                    </div>
                                 </div>
+                                <p class="bottom-area d-flex px-3">
+                                    <a class="add-to-cart text-center py-2 mr-1" asp-action="AddToCart" asp-controller="Customer" asp-route-id="@item.ID"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                                    <a  class="buy-now text-center py-2" asp-action="Cart" asp-controller="Customer">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                                </p>
                             </div>
-                            <p class="bottom-area d-flex px-3">
-                                <a href="" class="add-to-cart text-center py-2 mr-1" asp-action="Cart" asp-controller="Customer"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-                                <a href="#" class="buy-now text-center py-2" asp-action="Cart" asp-controller="Customer">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
-                            </p>
                         </div>
                     </div>
-                </div>
+                }
+
+               
             }
         </div>
     </div>

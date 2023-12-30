@@ -20,11 +20,10 @@ namespace MedicalTools.Controllers
 			_db = db;
             webHostEnvironment = environment;
         }
-        public async Task<IActionResult> Index()
-        {
-            return _db.products != null ?
-                        View(await _db.products.Where(p => p.percentageOfDiscount != 1).ToListAsync()) :
-                        Problem("Entity set 'AplicationContext.product'  is null.");
+        public  IActionResult Index()
+       {
+            var products = _db.products.Include(p => p.Category).ToList();
+            return View(products);
         }
 
         [ActionName("Product")]
@@ -178,11 +177,11 @@ namespace MedicalTools.Controllers
         }
         public IActionResult About()
         {
-            List<FeedbackForWeb> obj = _db.feedbackForWebs.Where(s => s.Status == true).ToList();
+            List<FeedbackForWeb> obj = _db.feedbackForWebs.Include(f=>f.User).Where(s => s.Status == true).ToList();
             return View(obj);
         }
 
-        public async Task<IActionResult> AddToCart(int id)
+        public IActionResult AddToCart(int id)
         {
             string? userJson = HttpContext.Session.GetString("LiveUser");
             if (userJson == null)
