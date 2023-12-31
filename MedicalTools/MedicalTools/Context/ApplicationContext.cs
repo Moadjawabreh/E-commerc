@@ -24,7 +24,7 @@ namespace MedicalTools.Context
         public DbSet<Cart> cart { get; set; }
         public DbSet<Order> orders { get; set; }
 
-
+      
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>(entity =>
@@ -74,6 +74,15 @@ namespace MedicalTools.Context
                 .HasMany(c => c.orders)
                 .WithOne(p => p.user)
                 .HasForeignKey(p => p.userId);
+
+            modelBuilder.Entity<Category>().HasData(
+                new Category { ID = 1, Name = "Electronic", Image = "" },
+                new Category { ID = 2, Name = "Diagnostic", Image = "" },
+                new Category { ID = 3, Name = "Surgical", Image ="" },
+                new Category { ID = 4, Name = "Storage && Transport", Image = "" }
+
+                );
+
         }
     }
 }

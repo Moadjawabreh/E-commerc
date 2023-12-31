@@ -57,10 +57,28 @@ namespace MedicalTools.Controllers
 		[HttpPost]
 		public async Task<IActionResult> Create(User user)
 		{
-			user.Role = Role.User;
-			_context.users.Add(user);
-			await _context.SaveChangesAsync();
-			return RedirectToAction("Index", "Customer");
+            var users = _context.users.ToList();
+			bool check = false;
+			foreach (var u in users)
+			{
+				if (u.Email.ToLower() == user.Email.ToLower())
+				{
+					check = true;
+					break;
+				}
+			}
+			if (!check)
+			{
+				string userJson = JsonConvert.SerializeObject(user);
+				HttpContext.Session.SetString("LiveUser", userJson);
+				user.Role = Role.User;
+				_context.users.Add(user);
+				_context.SaveChanges();
+				return RedirectToAction("Index", "Customer");
+			}
+			TempData["error"] = "This Email is already used, please login";
+			return RedirectToAction("Index");
+			
 		}
 	}
 }

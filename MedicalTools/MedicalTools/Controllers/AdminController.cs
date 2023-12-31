@@ -4,30 +4,55 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using System;
 
 namespace MedicalTools.Controllers
 {
     public class AdminController : Controller
     {
         private ApplicationContext _context;
-        public AdminController(ApplicationContext context)
+        private readonly IWebHostEnvironment webHostEnvironment;
+        public AdminController(ApplicationContext context, IWebHostEnvironment environment)
         {
             _context = context;
+            webHostEnvironment = environment;
+
         }
 
         public IActionResult Index()
         {
-
-            ViewBag.Customers = _context.users.Count();
-            ViewBag.Oreders = _context.orders.Count();
-            ViewBag.Total = _context.orders.Sum(order => order.Total);
-            ViewBag.TotalReveneu = 0;
-            if (_context.orders.Count() > 0)
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
             {
-                ViewBag.TotalReveneu = _context.products.Sum(prodcut => prodcut.Cost * prodcut.percentageOfDiscount) - _context.orders.Sum(order => order.Total);
+                TempData["ReturnUrl"] = Url.Action("Index", "Admin");
+                return RedirectToAction("Index", "Login");
             }
-            var orders=_context.orders.ToList();
-            return View(orders);
+            else
+            {
+                var user = JsonConvert.DeserializeObject<User>(userJson);
+                if (user.Role == Role.Admin)
+                {
+
+
+                    ViewBag.Customers = _context.users.Where(u => u.Role == Role.User).Count();
+                    ViewBag.Oreders = _context.orders.Count();
+                    ViewBag.Total = _context.orders.Sum(order => order.Total);
+                    ViewBag.TotalReveneu = 0;
+
+                    if (_context.orders.Count() > 0)
+                    {
+                        //ViewBag.TotalReveneu = _context.products.Sum(prodcut => prodcut.Cost * prodcut.percentageOfDiscount) - _context.orders.Sum(order => order.Total);
+                        ViewBag.TotalReveneu = _context.orders.Sum(o => o.Total) - _context.orders.Sum(o => o.Cost);
+                    }
+                    var orders = _context.orders.ToList();
+                    return View(orders);
+                }
+                else
+                {
+                    return RedirectToAction("Index", "Customer");
+                }
+            }
         }
 
 
@@ -36,14 +61,29 @@ namespace MedicalTools.Controllers
 
         public IActionResult Categories()
         {
-            List<Category>? categories = _context.categories.ToList();
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("Categories", "Admin");
+                return RedirectToAction("Index", "Login");
+            }
+            else
+            {
+                List<Category>? categories = _context.categories.ToList();
 
-            return View(categories);
+                return View(categories);
+            }
         }
 
         // ------- Create
         public IActionResult CreatCategories()
         {
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("CreatCategories", "Admin");
+                return RedirectToAction("Index", "Login");
+            }
             return View();
         }
 
@@ -79,6 +119,12 @@ namespace MedicalTools.Controllers
 
         public IActionResult DeleteCategories(int? id)
         {
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("DeleteCategories", "Admin");
+                return RedirectToAction("Index", "Login");
+            }
 
             Category category = _context.categories.FirstOrDefault(c => c.ID == id);
             _context.categories.Remove(category);
@@ -94,6 +140,12 @@ namespace MedicalTools.Controllers
 
         public IActionResult UpdateCategories(int? id)
         {
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("UpdateCategories", "Admin");
+                return RedirectToAction("Index", "Login");
+            }
             Category category = _context.categories.FirstOrDefault(c => c.ID == id);
             return View(category);
         }
@@ -123,6 +175,12 @@ namespace MedicalTools.Controllers
 
         public IActionResult Products()
         {
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("Products", "Admin");
+                return RedirectToAction("Index", "Login");
+            }
             List<Product>? products = _context.products
                 .Include(p => p.Category)
                 .ToList();
@@ -134,11 +192,20 @@ namespace MedicalTools.Controllers
         // ------- Create
         public IActionResult CreatProduct()
         {
+
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("CreatProduct", "Admin");
+                return RedirectToAction("Index", "Login");
+            }
             IEnumerable<SelectListItem> categories = _context.categories.ToList().Select(u => new SelectListItem
             {
                 Text = u.Name,
                 Value = u.ID.ToString()
             });
+
+
             ViewBag.categoriesList = categories;
 
             return View();
@@ -149,9 +216,26 @@ namespace MedicalTools.Controllers
         {
             if (product != null)
             {
+                if (product.ImageFile != null)
+                {
+                    string wwwRootPath = webHostEnvironment.WebRootPath;
+                    string fileName = Guid.NewGuid().ToString() + "" +
+                    product.ImageFile.FileName;
+                    string path = Path.Combine(wwwRootPath + "/Image/", fileName);
+                    using (var fileStream = new FileStream(path, FileMode.Create))
+                    {
+                        product.ImageFile.CopyTo(fileStream);
+                    }
+                    product.UrlImage = "/Image/" + fileName;
+
+                }
+
+
+
                 _context.products.Add(product);
                 _context.SaveChanges();
                 return RedirectToAction("Products");
+
             }
             return View();
         }
@@ -163,6 +247,13 @@ namespace MedicalTools.Controllers
 
         public IActionResult DeleteProduct(int? id)
         {
+
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("DeleteProduct", "Admin");
+                return RedirectToAction("Index", "Login");
+            }
             Product product = _context.products.FirstOrDefault(c => c.ID == id);
             _context.products.Remove(product);
             _context.SaveChanges();
@@ -176,7 +267,12 @@ namespace MedicalTools.Controllers
 
         public IActionResult UpdateProduct(int? id)
         {
-
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("UpdateProduct", "Admin");
+                return RedirectToAction("Index", "Login");
+            }
             Product product = _context.products.FirstOrDefault(c => c.ID == id);
 
 
@@ -193,9 +289,31 @@ namespace MedicalTools.Controllers
         [HttpPost]
         public IActionResult UpdateProduct(Product product)
         {
-            _context.products.Update(product);
-            _context.SaveChanges();
-            return RedirectToAction("Products");
+
+            if (product != null)
+            {
+                if (product.ImageFile != null)
+                {
+                    string wwwRootPath = webHostEnvironment.WebRootPath;
+                    string fileName = Guid.NewGuid().ToString() + "" +
+                    product.ImageFile.FileName;
+                    string path = Path.Combine(wwwRootPath + "/Image/", fileName);
+                    using (var fileStream = new FileStream(path, FileMode.Create))
+                    {
+                        product.ImageFile.CopyTo(fileStream);
+                    }
+                    product.UrlImage = "/Image/" + fileName;
+
+                }
+
+
+
+                _context.products.Update(product);
+                _context.SaveChanges();
+                return RedirectToAction("Products");
+
+            }
+            return View();
 
         }
 
@@ -208,6 +326,13 @@ namespace MedicalTools.Controllers
         // -------------------------------------------------------------------users
         public IActionResult Users()
         {
+
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("Users", "Admin");
+                return RedirectToAction("Index", "Login");
+            }
             List<User> Users = _context.users.ToList();
             return View(Users);
         }
@@ -234,6 +359,12 @@ namespace MedicalTools.Controllers
         public IActionResult Testimonials()
         {
 
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("Testimonials", "Admin");
+                return RedirectToAction("Index", "Login");
+            }
             List<FeedbackForWeb> FeedbackForWeb = _context.feedbackForWebs
                 .Include(p => p.User).Where(p => p.Status == false)
                 .ToList();
@@ -242,6 +373,12 @@ namespace MedicalTools.Controllers
 
         public IActionResult DeleteTestimonials(int id)
         {
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("DeleteTestimonials", "Admin");
+                return RedirectToAction("Index", "Login");
+            }
             var feedback = _context.feedbackForWebs.Find(id);
             _context.feedbackForWebs.Remove(feedback);
             _context.SaveChanges();
@@ -251,6 +388,12 @@ namespace MedicalTools.Controllers
 
         public IActionResult ApproveTestimonials(int id)
         {
+            string? userJson = HttpContext.Session.GetString("LiveUser");
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("ApproveTestimonials", "Admin");
+                return RedirectToAction("Index", "Login");
+            }
             var feedback = _context.feedbackForWebs.Find(id);
             feedback.Status = true;
             _context.feedbackForWebs.Update(feedback);

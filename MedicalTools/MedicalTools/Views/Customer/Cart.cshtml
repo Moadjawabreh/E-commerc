@@ -4,7 +4,7 @@
 <header>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </header>
-<div class="hero-wrap hero-bread" style="background-image: url('images/bg_6.jpg');">
+<div class="hero-wrap hero-bread" style="background-image: url('@Url.Content("~/customer/images/header.jpg")')">
     <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
             <div class="col-md-9 ftco-animate text-center">
@@ -35,9 +35,9 @@
                                 <tr class="text-center">
                                     <td class="product-remove">
                                         <a class="ion-ios-close" data-id="@obj.ID"></a>
-                                        
+
                                     </td>
-                                    
+
                                     @if (obj.product.UrlImage.Any())
                                     {
                                         <td class="image-prod"><div class="img" style="background-image:url(@obj.product.UrlImage);"></div></td>
@@ -81,9 +81,10 @@
                             {
                                 var itemSubtotal = obj.product.Price * obj.Quantity;
                                 Total += itemSubtotal;
-                                discount += obj.Quantity * obj.product.Price*obj.product.percentageOfDiscount;
-                            }
+                                discount += obj.Quantity * obj.product.Price * (1 - obj.product.percentageOfDiscount);
 
+                            }
+                            var afterDiscount = Total - discount;
                         }
                         <span>Subtotal</span>
                         <span>@Total.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span>
@@ -95,7 +96,7 @@
                     <hr>
                     <p class="d-flex total-price">
                         <span>Total</span>
-                        <span>@Total.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span>
+                        <span>@afterDiscount.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</span>
                     </p>
                 </div>
                 <p class="text-center"><a asp-controller="Customer" asp-action="Checkout" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
@@ -109,7 +110,7 @@
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
 
-    <script>
+<script>
     $('.ion-ios-close').on('click', function () {
         var id = $(this).data('id');
 

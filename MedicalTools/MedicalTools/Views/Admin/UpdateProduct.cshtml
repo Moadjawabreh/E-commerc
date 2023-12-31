@@ -8,7 +8,7 @@
     ViewData["Title"] = "UpdateProduct";
 }
 
-<form method="post">
+<form method="post" enctype="multipart/form-data">
 
     <div class="border shadow-lg m-4 p-3">
 
@@ -43,9 +43,9 @@
                 <span asp-validation-for="Cost" class="text-danger"></span>
             </div>
             <div class="col-6">
-                <label asp-for="UrlImage" class="form-label">Category Image</label>
-                <input asp-for="UrlImage" type="file" class="form-control" />
-                <span asp-validation-for="UrlImage" class="text-danger"></span>
+                <label asp-for="ImageFile" class="form-label">Category Image</label>
+                <input asp-for="ImageFile" type="file" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
             </div>
             <div class="col-6">
                 <label asp-for="percentageOfDiscount" class="form-label"></label>

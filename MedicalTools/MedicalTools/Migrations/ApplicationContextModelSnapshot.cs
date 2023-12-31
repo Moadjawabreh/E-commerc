@@ -67,6 +67,32 @@ namespace MedicalTools.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("categories");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            Image = "",
+                            Name = "Electronic"
+                        },
+                        new
+                        {
+                            ID = 2,
+                            Image = "",
+                            Name = "Diagnostic"
+                        },
+                        new
+                        {
+                            ID = 3,
+                            Image = "",
+                            Name = "Surgical"
+                        },
+                        new
+                        {
+                            ID = 4,
+                            Image = "",
+                            Name = "Storage && Transport"
+                        });
                 });
 
             modelBuilder.Entity("MedicalTools.Models.FeedbackForProduct", b =>
@@ -134,6 +160,9 @@ namespace MedicalTools.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<double>("Cost")
+                        .HasColumnType("float");
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
@@ -244,6 +273,9 @@ namespace MedicalTools.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -263,7 +295,9 @@ namespace MedicalTools.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("location")
-                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("phoneNumber")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");

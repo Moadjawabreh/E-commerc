@@ -10,7 +10,7 @@
 
     double Disc = @subtotal - @Model.Total;
 }
-<div class="hero-wrap hero-bread" style="background-image: url('images/bg_6.jpg');">
+<div class="hero-wrap hero-bread" style="background-image: url('@Url.Content("~/customer/images/header.jpg")')">
     <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
             <div class="col-md-9 ftco-animate text-center">
@@ -29,6 +29,7 @@
                     <input asp-for="ID" hidden />
                     <input asp-for="Total" hidden />
                     <input asp-for="Date" hidden />
+                    <input asp-for="Cost" hidden />
                     <h3 class="mb-4 billing-heading">Billing Details</h3>
                     <div class="row align-items-end">
                         <div class="col-md-6">

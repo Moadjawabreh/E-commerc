@@ -20,13 +20,17 @@ namespace MedicalTools.Models
 		public string Email { get; set; }
 
         [Required]
-		public string Password { get; set; }
+        public string Password { get; set; }
+
+        public string? phoneNumber { get; set; }
+
+        public string? City { get; set; }
+
         [Url]
-        
-        public string location { get; set; }
+        public string? location { get; set; }
 
 		[NotMapped]
-		public IFormFile ImageFile { get; set; }
+		public IFormFile? ImageFile { get; set; }
 
 		public string? ImageUrl { get; set; }
 
