@@ -47,10 +47,16 @@ namespace MedicalTools.Controllers
                 return View(products);
             }
 
-
-
         }
-        public IActionResult Checkout()
+        public IActionResult DeleteCart(int id)
+        {
+            var cart = _db.cart.Find(id);
+            _db.Remove(cart);
+            _db.SaveChanges();
+            return RedirectToAction("Cart");
+        }
+
+            public IActionResult Checkout()
         {
             string? userJson = HttpContext.Session.GetString("LiveUser");
             if (userJson == null)
