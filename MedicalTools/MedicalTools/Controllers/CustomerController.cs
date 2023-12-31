@@ -204,7 +204,7 @@ namespace MedicalTools.Controllers
             return View(obj);
         }
 
-        public IActionResult AddToCart(int id,int quantity)
+        public IActionResult AddToCart(int id, int quantity)
         {
             string? userJson = HttpContext.Session.GetString("LiveUser");
             if (userJson == null)
@@ -214,16 +214,16 @@ namespace MedicalTools.Controllers
             }
             else
             {
-                
+
                 var user = JsonConvert.DeserializeObject<User>(userJson);
-                var carts = _db.cart.Where(c=>c.UserId == user.ID).ToList();
+                var carts = _db.cart.Where(c => c.UserId == user.ID).ToList();
                 foreach (var item in carts)
                 {
-                    if(item.productId == id)
+                    if (item.productId == id)
                     {
-                        if(quantity!=0)
+                        if (quantity != 0)
                             item.Quantity += quantity;
-                        else 
+                        else
                             item.Quantity++;
                         _db.cart.Update(item);
                         _db.SaveChanges();
@@ -231,14 +231,14 @@ namespace MedicalTools.Controllers
                         return RedirectToAction("Index");
                     }
                 }
-                
+
                 var cart = new Cart();
-                if(quantity==null || quantity == 0)
+                if (quantity == null || quantity == 0)
                 {
                     cart.Quantity = 1;
 
                 }
-                else 
+                else
                 {
                     cart.Quantity = quantity;
                 }
@@ -308,9 +308,9 @@ namespace MedicalTools.Controllers
             else
             {
                 var user = JsonConvert.DeserializeObject<User>(userJson);
-                var feedBackForWeb=new FeedbackForWeb();
+                var feedBackForWeb = new FeedbackForWeb();
                 feedBackForWeb.userID = user.ID;
-                feedBackForWeb.Text= reviewInput;
+                feedBackForWeb.Text = reviewInput;
                 _db.feedbackForWebs.Add(feedBackForWeb);
                 _db.SaveChanges();
                 TempData["success"] = "Added FeedBack successfully";
