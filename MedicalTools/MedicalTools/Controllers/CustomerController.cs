@@ -54,11 +54,17 @@ namespace MedicalTools.Controllers
         public IActionResult Profile()
         {
             string? userJson = HttpContext.Session.GetString("LiveUser");
-            var userSession = JsonConvert.DeserializeObject<User>(userJson);
-            var user = _db.users.Find(userSession.ID);
-            return View(user);
-            //var user = new User();
-            //return View(user);
+            if (userJson == null)
+            {
+                TempData["ReturnUrl"] = Url.Action("Profile", "Customer");
+                return RedirectToAction("Index", "Login");
+            }
+            else
+            {
+                var userSession = JsonConvert.DeserializeObject<User>(userJson);
+                var user = _db.users.Find(userSession.ID);
+                return View(user);
+            }
         }
 
         [HttpPost]
@@ -119,18 +125,21 @@ namespace MedicalTools.Controllers
             else
             {
                 var user = JsonConvert.DeserializeObject<User>(userJson);
-                var orders = _db.cart.Include(p => p.product)
+                var carts = _db.cart.Include(p => p.product)
                     .Where(u => u.UserId == user.ID).ToList();
 
                 Order order = new Order();
                 double totalPrice = 0;
+                double costs = 0;
 
-                foreach (var price in orders)
+                foreach (var cart in carts)
                 {
-                    totalPrice += price.Quantity * price.product.Price * price.product.percentageOfDiscount;
+                    totalPrice += cart.Quantity * cart.product.Price * cart.product.percentageOfDiscount;
+                    costs += cart.product.Cost * cart.Quantity;
                 }
                 order.Total = totalPrice;
                 order.Date = DateTime.Now;
+                order.Cost = costs;
                 order.Name = user.Name;
                 order.Location = user.location;
                 order.Email = user.Email;
@@ -207,13 +216,29 @@ namespace MedicalTools.Controllers
             {
                 
                 var user = JsonConvert.DeserializeObject<User>(userJson);
+                var carts = _db.cart.Where(c=>c.UserId == user.ID).ToList();
+                foreach (var item in carts)
+                {
+                    if(item.productId == id)
+                    {
+                        if(quantity!=0)
+                            item.Quantity += quantity;
+                        else 
+                            item.Quantity++;
+                        _db.cart.Update(item);
+                        _db.SaveChanges();
+                        TempData["success"] = "product Add to Cart successfully";
+                        return RedirectToAction("Index");
+                    }
+                }
+                
                 var cart = new Cart();
                 if(quantity==null || quantity == 0)
                 {
                     cart.Quantity = 1;
 
                 }
-                else
+                else 
                 {
                     cart.Quantity = quantity;
                 }
