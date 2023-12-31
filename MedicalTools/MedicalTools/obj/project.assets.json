@@ -7996,19 +7996,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\project2\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
       "projectName": "MedicalTools",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\project2\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\project2\\E-commerc\\MedicalTools\\MedicalTools\\obj\\",
+      "projectPath": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
