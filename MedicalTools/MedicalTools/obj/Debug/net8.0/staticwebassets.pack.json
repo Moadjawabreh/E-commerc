@@ -1,1567 +1,1563 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MedicalTools.bundle.scp.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MedicalTools.bundle.scp.css",
       "PackagePath": "staticwebassets\\MedicalTools.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\css\\style.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\css\\style.css",
       "PackagePath": "staticwebassets\\Admin\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\img\\testimonial-1.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\Admin\\img\\testimonial-1.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\img\\testimonial-2.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\img\\testimonial-2.jpg",
       "PackagePath": "staticwebassets\\Admin\\img\\testimonial-2.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\img\\user.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\img\\user.jpg",
       "PackagePath": "staticwebassets\\Admin\\img\\user.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\js\\main.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\js\\main.js",
       "PackagePath": "staticwebassets\\Admin\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\chart\\chart.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\chart\\chart.min.js",
       "PackagePath": "staticwebassets\\Admin\\lib\\chart\\chart.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\easing\\easing.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\easing\\easing.js",
       "PackagePath": "staticwebassets\\Admin\\lib\\easing\\easing.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\easing\\easing.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\Admin\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\LICENSE",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\LICENSE",
       "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\owl.carousel.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
       "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
       "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\tempusdominus\\js\\moment-timezone.min.js",
       "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\moment-timezone.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\tempusdominus\\js\\moment.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\tempusdominus\\js\\moment.min.js",
       "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\moment.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
       "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
       "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\waypoints\\links.php",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\waypoints\\links.php",
       "PackagePath": "staticwebassets\\Admin\\lib\\waypoints\\links.php"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\waypoints\\waypoints.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\lib\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\Admin\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_accordion.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_accordion.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_accordion.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_alert.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_alert.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_badge.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_badge.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_button-group.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_button-group.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_buttons.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_buttons.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_card.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_card.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_carousel.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_carousel.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_close.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_close.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_containers.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_containers.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_containers.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_dropdown.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_forms.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_forms.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_functions.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_functions.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_grid.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_grid.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_helpers.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_helpers.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_helpers.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_images.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_images.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_list-group.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_list-group.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_mixins.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_modal.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_modal.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_nav.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_nav.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_navbar.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_navbar.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_offcanvas.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_offcanvas.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_pagination.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_pagination.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_popover.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_popover.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_progress.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_progress.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_reboot.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_reboot.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_root.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_root.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_spinners.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_spinners.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_tables.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_tables.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_toasts.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_toasts.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_tooltip.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_transitions.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_type.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_type.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_utilities.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_variables.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_labels.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_validation.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_validation.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_position.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_position.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_container.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_container.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\utilities\\_api.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\utilities\\_api.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\ajax-loader.gif",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\Customer\\css\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\animate.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\animate.css",
       "PackagePath": "staticwebassets\\Customer\\css\\animate.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\aos.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\aos.css",
       "PackagePath": "staticwebassets\\Customer\\css\\aos.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\bootstrap-datepicker.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\bootstrap-datepicker.css",
       "PackagePath": "staticwebassets\\Customer\\css\\bootstrap-datepicker.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Customer\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\bootstrap\\bootstrap-grid.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\bootstrap\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\Customer\\css\\bootstrap\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\bootstrap\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\bootstrap\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\Customer\\css\\bootstrap\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\Customer\\css\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\css\\mixins\\_text-hide.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\css\\mixins\\_text-hide.css",
       "PackagePath": "staticwebassets\\Customer\\css\\css\\mixins\\_text-hide.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\flaticon.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\flaticon.css",
       "PackagePath": "staticwebassets\\Customer\\css\\flaticon.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\icomoon.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\icomoon.css",
       "PackagePath": "staticwebassets\\Customer\\css\\icomoon.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\ionicons.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\ionicons.min.css",
       "PackagePath": "staticwebassets\\Customer\\css\\ionicons.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\jquery.timepicker.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\jquery.timepicker.css",
       "PackagePath": "staticwebassets\\Customer\\css\\jquery.timepicker.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\magnific-popup.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\magnific-popup.css",
       "PackagePath": "staticwebassets\\Customer\\css\\magnific-popup.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\Customer\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\owl.carousel.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\Customer\\css\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\owl.theme.default.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\Customer\\css\\owl.theme.default.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\style.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\css\\style.css",
       "PackagePath": "staticwebassets\\Customer\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\backup.txt",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\backup.txt",
       "PackagePath": "staticwebassets\\Customer\\fonts\\flaticon\\backup.txt"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\font\\flaticon.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\font\\flaticon.css",
       "PackagePath": "staticwebassets\\Customer\\fonts\\flaticon\\font\\flaticon.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\font\\flaticon.eot",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\font\\flaticon.eot",
       "PackagePath": "staticwebassets\\Customer\\fonts\\flaticon\\font\\flaticon.eot"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\font\\flaticon.html",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\font\\flaticon.html",
       "PackagePath": "staticwebassets\\Customer\\fonts\\flaticon\\font\\flaticon.html"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\font\\flaticon.otf",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\font\\flaticon.otf",
       "PackagePath": "staticwebassets\\Customer\\fonts\\flaticon\\font\\flaticon.otf"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\font\\flaticon.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\font\\flaticon.svg",
       "PackagePath": "staticwebassets\\Customer\\fonts\\flaticon\\font\\flaticon.svg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\font\\flaticon.ttf",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\font\\flaticon.ttf",
       "PackagePath": "staticwebassets\\Customer\\fonts\\flaticon\\font\\flaticon.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\font\\flaticon.woff",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\font\\flaticon.woff",
       "PackagePath": "staticwebassets\\Customer\\fonts\\flaticon\\font\\flaticon.woff"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\license\\license.pdf",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\flaticon\\license\\license.pdf",
       "PackagePath": "staticwebassets\\Customer\\fonts\\flaticon\\license\\license.pdf"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\icomoon\\icomoon.eot",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\icomoon\\icomoon.eot",
       "PackagePath": "staticwebassets\\Customer\\fonts\\icomoon\\icomoon.eot"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\icomoon\\icomoon.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\icomoon\\icomoon.svg",
       "PackagePath": "staticwebassets\\Customer\\fonts\\icomoon\\icomoon.svg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\icomoon\\icomoon.ttf",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\icomoon\\icomoon.ttf",
       "PackagePath": "staticwebassets\\Customer\\fonts\\icomoon\\icomoon.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\icomoon\\icomoon.woff",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\icomoon\\icomoon.woff",
       "PackagePath": "staticwebassets\\Customer\\fonts\\icomoon\\icomoon.woff"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\ionicons\\css\\_ionicons.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\ionicons\\css\\_ionicons.scss",
       "PackagePath": "staticwebassets\\Customer\\fonts\\ionicons\\css\\_ionicons.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\ionicons\\css\\ionicons.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\ionicons\\css\\ionicons.min.css",
       "PackagePath": "staticwebassets\\Customer\\fonts\\ionicons\\css\\ionicons.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\ionicons\\fonts\\ionicons.eot",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\ionicons\\fonts\\ionicons.eot",
       "PackagePath": "staticwebassets\\Customer\\fonts\\ionicons\\fonts\\ionicons.eot"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\ionicons\\fonts\\ionicons.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\ionicons\\fonts\\ionicons.svg",
       "PackagePath": "staticwebassets\\Customer\\fonts\\ionicons\\fonts\\ionicons.svg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\ionicons\\fonts\\ionicons.ttf",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\ionicons\\fonts\\ionicons.ttf",
       "PackagePath": "staticwebassets\\Customer\\fonts\\ionicons\\fonts\\ionicons.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\ionicons\\fonts\\ionicons.woff",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\ionicons\\fonts\\ionicons.woff",
       "PackagePath": "staticwebassets\\Customer\\fonts\\ionicons\\fonts\\ionicons.woff"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\ionicons\\fonts\\ionicons.woff2",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\ionicons\\fonts\\ionicons.woff2",
       "PackagePath": "staticwebassets\\Customer\\fonts\\ionicons\\fonts\\ionicons.woff2"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\open-iconic\\open-iconic.eot",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\open-iconic\\open-iconic.eot",
       "PackagePath": "staticwebassets\\Customer\\fonts\\open-iconic\\open-iconic.eot"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\open-iconic\\open-iconic.otf",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\open-iconic\\open-iconic.otf",
       "PackagePath": "staticwebassets\\Customer\\fonts\\open-iconic\\open-iconic.otf"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\open-iconic\\open-iconic.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\open-iconic\\open-iconic.svg",
       "PackagePath": "staticwebassets\\Customer\\fonts\\open-iconic\\open-iconic.svg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\open-iconic\\open-iconic.ttf",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\open-iconic\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\Customer\\fonts\\open-iconic\\open-iconic.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\open-iconic\\open-iconic.woff",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\fonts\\open-iconic\\open-iconic.woff",
       "PackagePath": "staticwebassets\\Customer\\fonts\\open-iconic\\open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\about-1.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\about-1.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\about-1.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\about-2.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\about-2.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\about-2.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\about.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\about.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\about.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\bg_1.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\bg_1.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\bg_1.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\bg_2.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\bg_2.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\bg_2.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\bg_4.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\bg_4.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\bg_4.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\bg_5.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\bg_5.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\bg_5.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\bg_6.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\bg_6.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\bg_6.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\header.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\header.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\header.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\image_1.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\image_1.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\image_1.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\image_2.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\image_2.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\image_2.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\image_3.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\image_3.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\image_3.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\image_4.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\image_4.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\image_4.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\image_5.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\image_5.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\image_5.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\image_6.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\image_6.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\image_6.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\person_1.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\person_1.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\person_1.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\person_2.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\person_2.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\person_2.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\person_3.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\person_3.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\person_3.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\person_4.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\person_4.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\person_4.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-1.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-1.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\product-1.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-2.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-2.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\product-2.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-3.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-3.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\product-3.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-4.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-4.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\product-4.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-5.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-5.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\product-5.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-6.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-6.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\product-6.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-7.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-7.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\product-7.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-8.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\images\\product-8.jpg",
       "PackagePath": "staticwebassets\\Customer\\images\\product-8.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\aos.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\aos.js",
       "PackagePath": "staticwebassets\\Customer\\js\\aos.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\bootstrap-datepicker.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\bootstrap-datepicker.js",
       "PackagePath": "staticwebassets\\Customer\\js\\bootstrap-datepicker.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\Customer\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\google-map.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\google-map.js",
       "PackagePath": "staticwebassets\\Customer\\js\\google-map.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery-3.2.1.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery-3.2.1.min.js",
       "PackagePath": "staticwebassets\\Customer\\js\\jquery-3.2.1.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery-migrate-3.0.1.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery-migrate-3.0.1.min.js",
       "PackagePath": "staticwebassets\\Customer\\js\\jquery-migrate-3.0.1.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery.animateNumber.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery.animateNumber.min.js",
       "PackagePath": "staticwebassets\\Customer\\js\\jquery.animateNumber.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery.easing.1.3.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery.easing.1.3.js",
       "PackagePath": "staticwebassets\\Customer\\js\\jquery.easing.1.3.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery.magnific-popup.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery.magnific-popup.min.js",
       "PackagePath": "staticwebassets\\Customer\\js\\jquery.magnific-popup.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\Customer\\js\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery.stellar.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery.stellar.min.js",
       "PackagePath": "staticwebassets\\Customer\\js\\jquery.stellar.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery.waypoints.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\jquery.waypoints.min.js",
       "PackagePath": "staticwebassets\\Customer\\js\\jquery.waypoints.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\main.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\main.js",
       "PackagePath": "staticwebassets\\Customer\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\owl.carousel.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\Customer\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\popper.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\Customer\\js\\popper.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\range.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\range.js",
       "PackagePath": "staticwebassets\\Customer\\js\\range.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\scrollax.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\js\\scrollax.min.js",
       "PackagePath": "staticwebassets\\Customer\\js\\scrollax.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_alert.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_alert.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_badge.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_badge.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_breadcrumb.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_breadcrumb.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_button-group.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_button-group.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_button-group.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_buttons.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_buttons.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_card.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_card.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_card.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_carousel.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_carousel.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_carousel.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_close.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_close.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_close.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_code.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_code.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_code.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_custom-forms.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_custom-forms.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_custom-forms.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_dropdown.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_dropdown.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_forms.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_forms.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_functions.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_functions.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_functions.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_grid.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_grid.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_images.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_images.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_images.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_input-group.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_input-group.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_input-group.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_jumbotron.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_jumbotron.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_jumbotron.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_list-group.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_list-group.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_media.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_media.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_media.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_mixins.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_mixins.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_modal.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_modal.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_modal.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_nav.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_nav.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_nav.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_navbar.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_navbar.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_pagination.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_pagination.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_popover.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_popover.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_popover.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_print.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_print.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_print.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_progress.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_progress.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_progress.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_reboot.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_reboot.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_reboot.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_root.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_root.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_root.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_spinners.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_spinners.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_spinners.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_tables.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_tables.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_toasts.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_toasts.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_toasts.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_tooltip.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_tooltip.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_tooltip.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_transitions.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_transitions.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_transitions.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_type.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_type.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_type.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_utilities.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_utilities.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_variables.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\_variables.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\bootstrap-grid.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\bootstrap-grid.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\bootstrap-reboot.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\bootstrap.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\bootstrap.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\bootstrap.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_alert.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_background-variant.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_background-variant.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_badge.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_badge.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_caret.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_caret.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_float.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_float.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_float.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_forms.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_gradients.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_grid-framework.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_grid-framework.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_grid.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_hover.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_hover.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_hover.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_image.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_image.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_lists.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_lists.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_nav-divider.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_nav-divider.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_resize.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_resize.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_screen-reader.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_screen-reader.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_size.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_size.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_size.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_table-row.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_table-row.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_text-hide.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_text-hide.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_transition.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_transition.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\mixins\\_visibility.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\mixins\\_visibility.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_align.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_align.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_align.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_background.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_background.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_background.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_borders.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_borders.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_borders.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_clearfix.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_display.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_display.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_display.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_embed.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_embed.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_embed.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_flex.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_flex.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_flex.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_float.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_float.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_float.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_overflow.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_overflow.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_position.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_position.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_position.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_screenreaders.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_screenreaders.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_shadows.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_shadows.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_sizing.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_sizing.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_spacing.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_spacing.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_text.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_text.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_text.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\bootstrap\\utilities\\_visibility.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\bootstrap\\utilities\\_visibility.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\style.scss",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Customer\\scss\\style.scss",
       "PackagePath": "staticwebassets\\Customer\\scss\\style.scss"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Free Photo _ Arrangement of medical objects with empty frame.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Free Photo _ Arrangement of medical objects with empty frame.jpg",
       "PackagePath": "staticwebassets\\Free Photo _ Arrangement of medical objects with empty frame.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\026d6b89-1a58-4df7-a2d4-a5057e3ea5c15.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\026d6b89-1a58-4df7-a2d4-a5057e3ea5c15.jpg",
       "PackagePath": "staticwebassets\\Image\\026d6b89-1a58-4df7-a2d4-a5057e3ea5c15.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\054752a9-3ecb-46fc-ad48-8cac0ad2c1481.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\054752a9-3ecb-46fc-ad48-8cac0ad2c1481.jpeg",
       "PackagePath": "staticwebassets\\Image\\054752a9-3ecb-46fc-ad48-8cac0ad2c1481.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\0c464b9a-334c-405f-b0fe-9db9a462da192.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\0c464b9a-334c-405f-b0fe-9db9a462da192.jpeg",
       "PackagePath": "staticwebassets\\Image\\0c464b9a-334c-405f-b0fe-9db9a462da192.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\108e8876-bd86-46a8-8f69-a4859a6c957d2.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\108e8876-bd86-46a8-8f69-a4859a6c957d2.jpg",
       "PackagePath": "staticwebassets\\Image\\108e8876-bd86-46a8-8f69-a4859a6c957d2.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\136a386c-1425-4fe2-b5f7-635a84deb779WhatsApp Image 2023-12-30 at 23.11.12_c1240c08.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\136a386c-1425-4fe2-b5f7-635a84deb779WhatsApp Image 2023-12-30 at 23.11.12_c1240c08.jpg",
       "PackagePath": "staticwebassets\\Image\\136a386c-1425-4fe2-b5f7-635a84deb779WhatsApp Image 2023-12-30 at 23.11.12_c1240c08.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\146fe915-c621-4c9d-8ee1-9c25fa1213c41.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\146fe915-c621-4c9d-8ee1-9c25fa1213c41.jpeg",
       "PackagePath": "staticwebassets\\Image\\146fe915-c621-4c9d-8ee1-9c25fa1213c41.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\15ce6afa-0e5c-42d9-b6f9-6e20714167872.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\15ce6afa-0e5c-42d9-b6f9-6e20714167872.jpeg",
       "PackagePath": "staticwebassets\\Image\\15ce6afa-0e5c-42d9-b6f9-6e20714167872.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\2a928128-cd65-4200-877f-9c1f44be2941RMI_8341 4.jpg",
-      "PackagePath": "staticwebassets\\Image\\2a928128-cd65-4200-877f-9c1f44be2941RMI_8341 4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\324bc2d0-dac1-4d0b-a762-781a52a9d8be2.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\324bc2d0-dac1-4d0b-a762-781a52a9d8be2.jpeg",
       "PackagePath": "staticwebassets\\Image\\324bc2d0-dac1-4d0b-a762-781a52a9d8be2.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\36ffe217-405d-4355-86b4-c6187571d1345.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\36ffe217-405d-4355-86b4-c6187571d1345.jpg",
       "PackagePath": "staticwebassets\\Image\\36ffe217-405d-4355-86b4-c6187571d1345.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\3e0de1cd-3ab7-41b6-9940-db18e0ff6de52.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\3e0de1cd-3ab7-41b6-9940-db18e0ff6de52.jpeg",
       "PackagePath": "staticwebassets\\Image\\3e0de1cd-3ab7-41b6-9940-db18e0ff6de52.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\4027fae0-b660-4aed-a61f-183b039c4e032.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\4027fae0-b660-4aed-a61f-183b039c4e032.jpg",
       "PackagePath": "staticwebassets\\Image\\4027fae0-b660-4aed-a61f-183b039c4e032.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\4987016a-5c9a-4853-aeae-2325f11b9b511.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\4987016a-5c9a-4853-aeae-2325f11b9b511.jpeg",
       "PackagePath": "staticwebassets\\Image\\4987016a-5c9a-4853-aeae-2325f11b9b511.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\5622e88c-3f93-453d-bd24-a83928b506d01.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\5622e88c-3f93-453d-bd24-a83928b506d01.jpg",
       "PackagePath": "staticwebassets\\Image\\5622e88c-3f93-453d-bd24-a83928b506d01.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\592f4b5c-abda-479f-8f0d-6490017fa31f2.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\592f4b5c-abda-479f-8f0d-6490017fa31f2.jpeg",
       "PackagePath": "staticwebassets\\Image\\592f4b5c-abda-479f-8f0d-6490017fa31f2.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\63355122-61ad-4b31-846f-63749b2fc0433.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\63355122-61ad-4b31-846f-63749b2fc0433.jpg",
       "PackagePath": "staticwebassets\\Image\\63355122-61ad-4b31-846f-63749b2fc0433.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\666b1154-0b98-40fb-94a3-fa2db0c3e7372.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\666b1154-0b98-40fb-94a3-fa2db0c3e7372.jpeg",
       "PackagePath": "staticwebassets\\Image\\666b1154-0b98-40fb-94a3-fa2db0c3e7372.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\6ecc0271-4f8e-4be4-831a-e7edc84d9f2f2.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\6ecc0271-4f8e-4be4-831a-e7edc84d9f2f2.jpg",
       "PackagePath": "staticwebassets\\Image\\6ecc0271-4f8e-4be4-831a-e7edc84d9f2f2.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\6ee17f4a-5d7f-48d8-ac87-ec55ca8e81304.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\6ee17f4a-5d7f-48d8-ac87-ec55ca8e81304.jpg",
       "PackagePath": "staticwebassets\\Image\\6ee17f4a-5d7f-48d8-ac87-ec55ca8e81304.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\7463aa9c-68a2-4338-8a5b-7697c94289461.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\7463aa9c-68a2-4338-8a5b-7697c94289461.jpeg",
       "PackagePath": "staticwebassets\\Image\\7463aa9c-68a2-4338-8a5b-7697c94289461.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\748552bb-80ef-41c0-8381-48a8622857331.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\748552bb-80ef-41c0-8381-48a8622857331.jpg",
       "PackagePath": "staticwebassets\\Image\\748552bb-80ef-41c0-8381-48a8622857331.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\7a07e8ca-b513-4e20-a729-663adb4321dc1.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\7a07e8ca-b513-4e20-a729-663adb4321dc1.jpeg",
       "PackagePath": "staticwebassets\\Image\\7a07e8ca-b513-4e20-a729-663adb4321dc1.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\7e3f16e0-f328-4d42-b049-39d4a33e66001.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\7e3f16e0-f328-4d42-b049-39d4a33e66001.jpeg",
       "PackagePath": "staticwebassets\\Image\\7e3f16e0-f328-4d42-b049-39d4a33e66001.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\825ca03b-7169-43b2-8552-68a0871d3dd01.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\825ca03b-7169-43b2-8552-68a0871d3dd01.jpeg",
       "PackagePath": "staticwebassets\\Image\\825ca03b-7169-43b2-8552-68a0871d3dd01.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\84a41c8d-ecc0-444b-90d9-ab2d6be96c33Digital Ultrasound Machine Mindray DP-30.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\84a41c8d-ecc0-444b-90d9-ab2d6be96c33Digital Ultrasound Machine Mindray DP-30.jpg",
       "PackagePath": "staticwebassets\\Image\\84a41c8d-ecc0-444b-90d9-ab2d6be96c33Digital Ultrasound Machine Mindray DP-30.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\92969552-4876-47f5-aa0f-018b4ad4a7424.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\92969552-4876-47f5-aa0f-018b4ad4a7424.jpg",
       "PackagePath": "staticwebassets\\Image\\92969552-4876-47f5-aa0f-018b4ad4a7424.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\97a45c33-eced-4b7f-be17-b013e478f955WhatsApp Image 2023-12-30 at 23.11.12_f4bd87d2.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\97a45c33-eced-4b7f-be17-b013e478f955WhatsApp Image 2023-12-30 at 23.11.12_f4bd87d2.jpg",
       "PackagePath": "staticwebassets\\Image\\97a45c33-eced-4b7f-be17-b013e478f955WhatsApp Image 2023-12-30 at 23.11.12_f4bd87d2.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\9c15891e-e93c-447b-9caa-cb8bbff47dfb1.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\9c15891e-e93c-447b-9caa-cb8bbff47dfb1.jpg",
       "PackagePath": "staticwebassets\\Image\\9c15891e-e93c-447b-9caa-cb8bbff47dfb1.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\9c2e6dfd-f0a2-46a3-9e09-175b174ea8101.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\9c2e6dfd-f0a2-46a3-9e09-175b174ea8101.jpeg",
       "PackagePath": "staticwebassets\\Image\\9c2e6dfd-f0a2-46a3-9e09-175b174ea8101.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\a4c1660d-22c2-4d37-84a9-652f6060adef3.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\a4c1660d-22c2-4d37-84a9-652f6060adef3.jpg",
       "PackagePath": "staticwebassets\\Image\\a4c1660d-22c2-4d37-84a9-652f6060adef3.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\abe1bcb5-f73c-417b-ab2c-13f4f7d048cd4.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\abe1bcb5-f73c-417b-ab2c-13f4f7d048cd4.jpg",
       "PackagePath": "staticwebassets\\Image\\abe1bcb5-f73c-417b-ab2c-13f4f7d048cd4.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\b339e910-93d6-4634-9985-2cb82940ad198.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\b339e910-93d6-4634-9985-2cb82940ad198.jpg",
       "PackagePath": "staticwebassets\\Image\\b339e910-93d6-4634-9985-2cb82940ad198.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\c0cc51bf-3eed-48ce-afae-659fa756b5495.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\c0cc51bf-3eed-48ce-afae-659fa756b5495.jpg",
       "PackagePath": "staticwebassets\\Image\\c0cc51bf-3eed-48ce-afae-659fa756b5495.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\c36dd560-526b-4c6d-86c4-d3ae4afbd68fproject1.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\c36dd560-526b-4c6d-86c4-d3ae4afbd68fproject1.jpg",
       "PackagePath": "staticwebassets\\Image\\c36dd560-526b-4c6d-86c4-d3ae4afbd68fproject1.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\c6b19f8e-9431-488b-9dba-146f4f10a691Capture.PNG",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\c6b19f8e-9431-488b-9dba-146f4f10a691Capture.PNG",
       "PackagePath": "staticwebassets\\Image\\c6b19f8e-9431-488b-9dba-146f4f10a691Capture.PNG"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\d177ea4f-7914-44cc-868a-47e0854f1ae8WhatsApp Image 2023-12-30 at 23.08.36_82b65098.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\d177ea4f-7914-44cc-868a-47e0854f1ae8WhatsApp Image 2023-12-30 at 23.08.36_82b65098.jpg",
       "PackagePath": "staticwebassets\\Image\\d177ea4f-7914-44cc-868a-47e0854f1ae8WhatsApp Image 2023-12-30 at 23.08.36_82b65098.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\d70ccb50-7210-45a8-8fcd-02af2a068c2b7.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\d70ccb50-7210-45a8-8fcd-02af2a068c2b7.jpg",
       "PackagePath": "staticwebassets\\Image\\d70ccb50-7210-45a8-8fcd-02af2a068c2b7.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\df7071e3-df3e-4dd1-9623-186da19c847c1.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\df7071e3-df3e-4dd1-9623-186da19c847c1.jpeg",
       "PackagePath": "staticwebassets\\Image\\df7071e3-df3e-4dd1-9623-186da19c847c1.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\e7788d6e-32f6-431f-a8f0-85aee74b817dimages.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\e7788d6e-32f6-431f-a8f0-85aee74b817dimages.jpg",
       "PackagePath": "staticwebassets\\Image\\e7788d6e-32f6-431f-a8f0-85aee74b817dimages.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\ec75d3d8-145b-44f8-9d2b-3c2519861bfd3.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\ec75d3d8-145b-44f8-9d2b-3c2519861bfd3.jpg",
       "PackagePath": "staticwebassets\\Image\\ec75d3d8-145b-44f8-9d2b-3c2519861bfd3.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\f0d802de-50a1-48a8-8c2d-f1dd0a43fb5eDigital Ultrasound Machine Mindray DP-30.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\f0d802de-50a1-48a8-8c2d-f1dd0a43fb5eDigital Ultrasound Machine Mindray DP-30.jpg",
       "PackagePath": "staticwebassets\\Image\\f0d802de-50a1-48a8-8c2d-f1dd0a43fb5eDigital Ultrasound Machine Mindray DP-30.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\f0eeba42-8315-4d49-8b5d-6ce454204f752.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\f0eeba42-8315-4d49-8b5d-6ce454204f752.jpeg",
       "PackagePath": "staticwebassets\\Image\\f0eeba42-8315-4d49-8b5d-6ce454204f752.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\f3ec2ef9-d477-4c40-ad9f-ef8e5e5b6e20RMI_8385.JPG",
-      "PackagePath": "staticwebassets\\Image\\f3ec2ef9-d477-4c40-ad9f-ef8e5e5b6e20RMI_8385.JPG"
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\Image\\mo'men.jpg",
+      "PackagePath": "staticwebassets\\Image\\mo'men.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\img\\1.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\img\\1.jpeg",
       "PackagePath": "staticwebassets\\img\\1.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\img\\2.jpeg",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\img\\2.jpeg",
       "PackagePath": "staticwebassets\\img\\2.jpeg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\Project\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

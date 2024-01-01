@@ -1,10 +1,3 @@
-﻿@* @{
-    Layout = "_Layout";
-} *@
-
-@if (ViewContext.HttpContext.Session.GetString("LiveUser")!=null)
-{
+﻿@{
     Layout = "_Layout";
 }
-else
-    Layout = "_layout2";

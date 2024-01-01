@@ -73,24 +73,25 @@
         <div class="row ftco-animate">
             <div class="col-md-12">
                 <div class="carousel-testimony owl-carousel">
-                    @foreach(var item in Model)
+                    @foreach (var item in Model)
                     {
-                    <div class="item">
-                        <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-5" style="background-image: url(@item.User.ImageUrl)">
-                                <span class="quote d-flex align-items-center justify-content-center">
-                                    <i class="icon-quote-left"></i>
-                                </span>
-                            </div>
-                            <div class="text">
-                                <p class="mb-5 pl-4 line">@item.Text</p>
-                                <p class="name">@item.User.Name</p>
+                        <div class="item">
+                            <div class="testimony-wrap p-4 pb-5">
+                                <div class="user-img mb-5">
+                                    <img src="@Url.Content(item.User.ImageUrl)" alt="" />
+                                    <span class="quote d-flex align-items-center justify-content-center">
+                                        <i class="icon-quote-left"></i>
+                                    </span>
+                                </div>
+                                <div class="text">
+                                    <p class="mb-5 pl-4 line">@item.Text</p>
+                                    <p class="name">@item.User.Name</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     }
 
-                   
+
 
                 </div>
             </div>
@@ -103,14 +104,13 @@
 
 <div class="container">
     <div class="row">
-<div id="reviewFormPopup" class="mx-auto col-md-6" >
-    <form id="reviewForm" asp-action="AddFeedbackForWeb" method="post">
-        <textarea style="border-radius:10px " id="reviewInput" name="reviewInput" rows="8" cols="60" required></textarea>
+        <div id="reviewFormPopup" class="mx-auto col-md-6">
+            <form id="reviewForm" asp-action="AddFeedbackForWeb" method="post">
+                <textarea style="border-radius:10px " id="reviewInput" name="reviewInput" rows="8" cols="60" required></textarea>
                 <div style="margin-right:38px ; margin-bottom:20px" class="text-end">
-        <button type="submit"  class="btn btn-success"> Submit Feedback</button>
+                    <button type="submit" class="btn btn-success"> Submit Feedback</button>
                 </div>
-    </form>
-</div>
+            </form>
+        </div>
     </div>
 </div>
-  

@@ -39,10 +39,10 @@ namespace MedicalTools.Controllers
         {
             if (id != 0)
             {
-                Product product = _db.products
-         .Include(p => p.FeedbackForProducts)
-         .ThenInclude(f => f.User)
-         .SingleOrDefault(p => p.ID == id);
+                Product? product = _db.products
+                    .Include(p => p.FeedbackForProducts)
+                    .ThenInclude(f => f.User)
+                    .SingleOrDefault(p => p.ID == id);
 
                 ViewBag.seveProducts = _db.products.Where(p => p.categoryID == product.categoryID).Take(4).ToList();
                 return View(product);
@@ -53,6 +53,7 @@ namespace MedicalTools.Controllers
         }
         public IActionResult Profile()
         {
+            TempData.Remove("ReturnUrl");
             string? userJson = HttpContext.Session.GetString("LiveUser");
             if (userJson == null)
             {
@@ -90,7 +91,7 @@ namespace MedicalTools.Controllers
 
         public IActionResult Cart()
         {
-
+            TempData.Remove("ReturnUrl");
             // id for current user must fill from session
             string? userJson = HttpContext.Session.GetString("LiveUser");
             if (userJson == null)
@@ -116,6 +117,7 @@ namespace MedicalTools.Controllers
         }
         public IActionResult Checkout()
         {
+            TempData.Remove("ReturnUrl");
             string? userJson = HttpContext.Session.GetString("LiveUser");
             if (userJson == null)
             {
@@ -178,6 +180,7 @@ namespace MedicalTools.Controllers
 
         public IActionResult Order()
         {
+            TempData.Remove("ReturnUrl");
             string? userJson = HttpContext.Session.GetString("LiveUser");
             if (userJson == null)
             {
@@ -206,6 +209,7 @@ namespace MedicalTools.Controllers
 
         public IActionResult AddToCart(int id, int quantity)
         {
+            TempData.Remove("ReturnUrl");
             string? userJson = HttpContext.Session.GetString("LiveUser");
             if (userJson == null)
             {
@@ -257,16 +261,19 @@ namespace MedicalTools.Controllers
         public IActionResult Logout()
         {
             HttpContext.Session.Remove("LiveUser");
+
             return RedirectToAction("Index");
         }
 
 
-        public IActionResult AddFeedbackForProduct() { return View(); }
+        public IActionResult AddFeedbackForProduct() 
+        {
+            return View();
+        }
         [HttpPost]
         public IActionResult AddFeedbackForProduct(string reviewInput, int ID)
         {
-
-
+            TempData.Remove("ReturnUrl");
             string? userJson = HttpContext.Session.GetString("LiveUser");
             if (userJson == null)
             {
@@ -293,12 +300,16 @@ namespace MedicalTools.Controllers
         }
 
 
-        public IActionResult AddFeedbackForWeb() { return View(); }
+        public IActionResult AddFeedbackForWeb() 
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult AddFeedbackForWeb(string reviewInput)
         {
 
-
+            TempData.Remove("ReturnUrl");
             string? userJson = HttpContext.Session.GetString("LiveUser");
             if (userJson == null)
             {

@@ -27,7 +27,7 @@ namespace MedicalTools.Controllers
 			var users = _context.users.ToList();
 			foreach (var u in users)
 			{
-				if (u.Email == user.Email && u.Password == user.Password)
+				if (u.Email.ToLower() == user.Email.ToLower() && u.Password == user.Password)
 				{
 					string userJson = JsonConvert.SerializeObject(u);
 					HttpContext.Session.SetString("LiveUser", userJson);

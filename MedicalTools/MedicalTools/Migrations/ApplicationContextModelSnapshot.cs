@@ -126,6 +126,908 @@ namespace MedicalTools.Migrations
                     b.HasIndex("userID");
 
                     b.ToTable("feedbackForProducts");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 1,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 2,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 1,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 3,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 1,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 4,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 1,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 5,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 1,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 6,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 2,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 7,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 2,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 8,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 2,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 9,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 2,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 10,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 2,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 11,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 3,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 12,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 3,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 13,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 3,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 14,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 3,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 15,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 3,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 16,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 4,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 17,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 4,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 18,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 4,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 19,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 4,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 20,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 4,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 21,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 5,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 22,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 5,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 23,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 5,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 24,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 5,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 25,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 5,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 26,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 6,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 27,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 6,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 28,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 6,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 29,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 6,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 30,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 6,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 31,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 7,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 32,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 7,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 33,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 7,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 34,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 7,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 35,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 7,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 36,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 8,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 37,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 8,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 38,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 8,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 39,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 8,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 40,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 8,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 41,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 9,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 42,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 9,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 43,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 9,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 44,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 9,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 45,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 9,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 46,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 10,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 47,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 10,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 48,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 10,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 49,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 10,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 50,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 10,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 51,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 11,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 52,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 11,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 53,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 11,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 54,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 11,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 55,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 11,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 56,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 12,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 57,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 12,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 58,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 12,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 59,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 12,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 60,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 12,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 61,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 13,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 62,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 13,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 63,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 13,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 64,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 13,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 65,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 13,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 66,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 14,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 67,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 14,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 68,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 14,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 69,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 14,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 70,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 14,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 71,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 15,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 72,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 15,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 73,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 15,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 74,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 15,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 75,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 15,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 76,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 16,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 77,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 16,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 78,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 16,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 79,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 16,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 80,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 16,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 81,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 17,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 82,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 17,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 83,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 17,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 84,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 17,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 85,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 17,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 86,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 18,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 87,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 18,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 88,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 18,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 89,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 18,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 90,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 18,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 91,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 19,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 92,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 19,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 93,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 19,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 94,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 19,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 95,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 19,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 96,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Very accurate measurements!",
+                            productID = 20,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 97,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Excellent for cardiology diagnostics.",
+                            productID = 20,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 98,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Easy to use, great for OB/GYN applications.",
+                            productID = 20,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 99,
+                            Rating = 0,
+                            Status = false,
+                            Text = "High-quality ultrasound images.",
+                            productID = 20,
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 100,
+                            Rating = 0,
+                            Status = false,
+                            Text = "Expandable features are beneficial.",
+                            productID = 20,
+                            userID = 2
+                        });
                 });
 
             modelBuilder.Entity("MedicalTools.Models.FeedbackForWeb", b =>
@@ -151,6 +1053,43 @@ namespace MedicalTools.Migrations
                     b.HasIndex("userID");
 
                     b.ToTable("feedbackForWebs");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            Status = true,
+                            Text = "Great service!",
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 2,
+                            Status = true,
+                            Text = "Had an issue, but resolved quickly.",
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 3,
+                            Status = true,
+                            Text = "Product was damaged.",
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 4,
+                            Status = true,
+                            Text = "Fast shipping, good quality.",
+                            userID = 2
+                        },
+                        new
+                        {
+                            ID = 5,
+                            Status = true,
+                            Text = "Easy returns process.",
+                            userID = 2
+                        });
                 });
 
             modelBuilder.Entity("MedicalTools.Models.Order", b =>
@@ -223,6 +1162,20 @@ namespace MedicalTools.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("payments");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            Password = "secretpassword1",
+                            cardNo = "1234567890123456"
+                        },
+                        new
+                        {
+                            ID = 2,
+                            Password = "secretpassword2",
+                            cardNo = "9876543210987654"
+                        });
                 });
 
             modelBuilder.Entity("MedicalTools.Models.Product", b =>
@@ -263,6 +1216,228 @@ namespace MedicalTools.Migrations
                     b.HasIndex("categoryID");
 
                     b.ToTable("products");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            Cost = 100.0,
+                            Description = " National Ultrasound is proud to offer a wide range of Mindray products, including the Mindray DP-30 Portable Ultrasound Machine. Designed for ease of use for family practice, orthopedics, and women’s care centers, the DP-30 is a compact, low-cost, black and white ultrasound designed for general imaging studies, OB/GYN, and light MSK work. This powerful system is equipped with advanced imaging technologies to provide you with high-quality images and a convenient workflow, allowing you to scan with confidence and ease. With its lightweight, ergonomic, mobile design, the DP-30 can accompany you wherever required. Designed for high performance and value, this system exceeds every expectation. ",
+                            Name = "Digital Ultrasound Machine Mindray DP-30",
+                            Price = 120.0,
+                            UrlImage = "/Image/d70ccb50-7210-45a8-8fcd-02af2a068c2b7.jpg",
+                            categoryID = 1,
+                            percentageOfDiscount = 1.0
+                        },
+                        new
+                        {
+                            ID = 2,
+                            Cost = 150.0,
+                            Description = "Powerful professional measurement tools allow you to give an accurate and quick diagnosis. The measurement packages of the ultrasound are comprehensively applicable to cardiology OB/GYN, radiology, anesthetics department, etc. The high-level ultrasound diagnosis systems provide excellent solutions for both adults and pediatrics. You can make clinical decisions with greater confidence and expand your practice in new directions.",
+                            Name = "MEK-L3",
+                            Price = 200.0,
+                            UrlImage = "/Image/b339e910-93d6-4634-9985-2cb82940ad198.jpg",
+                            categoryID = 1,
+                            percentageOfDiscount = 1.0
+                        },
+                        new
+                        {
+                            ID = 3,
+                            Cost = 350.0,
+                            Description = "The Medical Equipment Heating Incubator with LCD screen is a sophisticated and essential device designed for laboratory use. This incubator is specifically engineered to provide controlled and optimal conditions for the cultivation and growth of various biological samples, tissues, or cultures that require a controlled environment.",
+                            Name = "Medical Equipment Heating Incubator with LCD screen for Laboratory",
+                            Price = 400.0,
+                            UrlImage = "/Image/136a386c-1425-4fe2-b5f7-635a84deb779WhatsApp Image 2023-12-30 at 23.11.12_c1240c08.jpg",
+                            categoryID = 1,
+                            percentageOfDiscount = 0.80000000000000004
+                        },
+                        new
+                        {
+                            ID = 4,
+                            Cost = 50.0,
+                            Description = "An infusion pump infuses fluids, medication or nutrients into a patient's circulatory system. It is generally used intravenously, although subcutaneous, arterial, and epidural infusions are occasionally used. We supply many kinds of cheap infusion pumps and even with high quality, MSL syringe pumps are people known for outstanding reliability and performance.",
+                            Name = "Infrared Vein Finder MSL-265",
+                            Price = 70.0,
+                            UrlImage = "/Image/97a45c33-eced-4b7f-be17-b013e478f955WhatsApp Image 2023-12-30 at 23.11.12_f4bd87d2.jpg",
+                            categoryID = 1,
+                            percentageOfDiscount = 1.0
+                        },
+                        new
+                        {
+                            ID = 5,
+                            Cost = 60.0,
+                            Description = "The EC100 Electronic Colposcope is the latest product which applies the digital image technique to gynecology check. It adopts the professional hardware equipments of the SONY company in Japan and the system software of our company. Our Electronic Colposcope has some advantages, such as clear and exact imaging, no distortion image color, high magnification, large screen display for identifying hairlike focus easily, also through",
+                            Name = "EC100 Electronic Colposcope",
+                            Price = 100.0,
+                            UrlImage = "/Image/f0d802de-50a1-48a8-8c2d-f1dd0a43fb5eDigital Ultrasound Machine Mindray DP-30.jpg",
+                            categoryID = 1,
+                            percentageOfDiscount = 0.44
+                        },
+                        new
+                        {
+                            ID = 6,
+                            Cost = 100.0,
+                            Description = "The CMS600B3 is a compact and lightweight ultrasound system designed for point-of-care diagnostics. It is commonly used in various medical settings, including clinics, hospitals, and mobile healthcare units. The 'B' in B-Ultrasound stands for 'brightness,' indicating that it primarily uses ultrasound technology to produce real-time, high-resolution images of internal body structures.",
+                            Name = "CMS600B3 B-Ultrasound Diagnostic System",
+                            Price = 60.0,
+                            UrlImage = "/Image/748552bb-80ef-41c0-8381-48a8622857331.jpg",
+                            categoryID = 2,
+                            percentageOfDiscount = 0.80000000000000004
+                        },
+                        new
+                        {
+                            ID = 7,
+                            Cost = 80.0,
+                            Description = "Rechargeable battery that allows operation during power outages. Overload protection. Medically approved, in accordance with IEC 60601-1. Easy plug-and-play system that reduces time-to-market.",
+                            Name = "Medical device control unit VCU",
+                            Price = 130.0,
+                            UrlImage = "/Image/4027fae0-b660-4aed-a61f-183b039c4e032.jpg",
+                            categoryID = 2,
+                            percentageOfDiscount = 0.69999999999999996
+                        },
+                        new
+                        {
+                            ID = 8,
+                            Cost = 130.0,
+                            Description = "General current limiter, protection against individual faults. Extended service life > 100 000 cycles. Protection against isolated faults. A compact controller for up to 5 actuators. The parameters of the motor outputs can be set.",
+                            Name = "Infrared Vein Finder MSL-265",
+                            Price = 180.0,
+                            UrlImage = "/Image/a4c1660d-22c2-4d37-84a9-652f6060adef3.jpg",
+                            categoryID = 2,
+                            percentageOfDiscount = 0.90000000000000002
+                        },
+                        new
+                        {
+                            ID = 9,
+                            Cost = 24.0,
+                            Description = "Medical needles are slender, pointed devices commonly used in healthcare settings for various purposes such as injections, blood draws, and fluid aspiration. They are typically made of stainless steel or other materials and feature a sharp, beveled tip designed to minimize patient discomfort during penetration.",
+                            Name = "Safety tester 62353+",
+                            Price = 40.0,
+                            UrlImage = "/Image/92969552-4876-47f5-aa0f-018b4ad4a7424.jpg",
+                            categoryID = 2,
+                            percentageOfDiscount = 1.0
+                        },
+                        new
+                        {
+                            ID = 10,
+                            Cost = 50.0,
+                            Description = "The Rigel 62353+ is the smallest and most flexible electrical safety analyzer on the market with battery-powered earth/ground bond and insulation testing. It provides an accurate and fast solution for testing in accordance with the IEC 62353 safety standard.",
+                            Name = "Monitoring ECG cable",
+                            Price = 70.0,
+                            UrlImage = "/Image/026d6b89-1a58-4df7-a2d4-a5057e3ea5c15.jpg",
+                            categoryID = 2,
+                            percentageOfDiscount = 1.0
+                        },
+                        new
+                        {
+                            ID = 11,
+                            Cost = 170.0,
+                            Description = "Portable design with optional carry bag. Arrhythmia analysis and ST segment analysis. Protection against defibrillator interference. Data export via USB cable with software 12000 groups NIBP list and 2000 groups arrhythmia event. 60-hour ECG waveform and 1000-hour trend data recall. Pitch tone selection and brightness adjustment.",
+                            Name = "Multi-Parameter Patient Monitor 12.1 Inch Color TFT Portable Medical Equipment MSLMP12",
+                            Price = 200.0,
+                            UrlImage = "/Image/5622e88c-3f93-453d-bd24-a83928b506d01.jpg",
+                            categoryID = 3,
+                            percentageOfDiscount = 0.69999999999999996
+                        },
+                        new
+                        {
+                            ID = 12,
+                            Cost = 170.0,
+                            Description = "Knotless anchors are commonly used in orthopedic surgeries, particularly in procedures involving the repair of soft tissues like tendons or ligaments. They are designed to secure the soft tissue to bone without the need for traditional knots, simplifying the surgical technique and potentially reducing the risk of complications.",
+                            Name = "ORTHOPROMED KNOTLESS ANCHOR",
+                            Price = 200.0,
+                            UrlImage = "/Image/108e8876-bd86-46a8-8f69-a4859a6c957d2.jpg",
+                            categoryID = 3,
+                            percentageOfDiscount = 0.69999999999999996
+                        },
+                        new
+                        {
+                            ID = 13,
+                            Cost = 260.0,
+                            Description = "Being outstanding in cardiology and radiology, Apogee 5300 Pro serves as a professional assistant to facilitate diagnostic accuracy. It possesses remarkable computing capabilities that enable automatic measurement of essential results within seconds.",
+                            Name = "4D Doppler Obstetric and Abdominal Ultrasound I3",
+                            Price = 300.0,
+                            UrlImage = "/Image/63355122-61ad-4b31-846f-63749b2fc0433.jpg",
+                            categoryID = 3,
+                            percentageOfDiscount = 1.0
+                        },
+                        new
+                        {
+                            ID = 14,
+                            Cost = 220.0,
+                            Description = "Fiber tape sutures are commonly used in orthopedic surgeries, especially in procedures involving the repair of soft tissues like tendons or ligaments. They provide a strong and durable option for securing soft tissues to bone.",
+                            Name = "ORTHOPROMED FIBER TAPE SUTURE",
+                            Price = 250.0,
+                            UrlImage = "/Image/abe1bcb5-f73c-417b-ab2c-13f4f7d048cd4.jpg",
+                            categoryID = 3,
+                            percentageOfDiscount = 0.90000000000000002
+                        },
+                        new
+                        {
+                            ID = 15,
+                            Cost = 220.0,
+                            Description = "A collection of medical instruments and supplies used during the process of childbirth, specifically for a vaginal delivery. The contents of a delivery set may vary, but they generally include essential items needed.",
+                            Name = "Delivery Set",
+                            Price = 250.0,
+                            UrlImage = "/Image/c0cc51bf-3eed-48ce-afae-659fa756b5495.jpg",
+                            categoryID = 3,
+                            percentageOfDiscount = 1.0
+                        },
+                        new
+                        {
+                            ID = 16,
+                            Cost = 50.0,
+                            Description = "It is designed for use in the operating and intervention rooms. The cabinet is made of AISI 304 quality 18/8 CrNi stainless steel. The upper part has a glass cover and locks. There are two drawers and one lockable cupboard at the bottom. The drawer can be removed from its place to be completely cleaned by the telescopic rail system used in the drawer system. There are 4 feet that adjust the height and level of the cabinet. Different models are designed and manufactured upon customer request.",
+                            Name = "Cabinet with drawer ER series",
+                            Price = 70.0,
+                            UrlImage = "/Image/9c15891e-e93c-447b-9caa-cb8bbff47dfb1.jpg",
+                            categoryID = 4,
+                            percentageOfDiscount = 1.0
+                        },
+                        new
+                        {
+                            ID = 17,
+                            Cost = 50.0,
+                            Description = "Cart dimensions: 644mm(L) x 638mm(W) x 1650mm(H); Worksurface height: 1125mm; Worksurface dimensions: 527mm(L) x 420mm(W) Arm Standard Load≦10Kg.",
+                            Name = "Medical cart G-NB2-00",
+                            Price = 120.0,
+                            UrlImage = "/Image/6ecc0271-4f8e-4be4-831a-e7edc84d9f2f2.jpg",
+                            categoryID = 4,
+                            percentageOfDiscount = 1.0
+                        },
+                        new
+                        {
+                            ID = 18,
+                            Cost = 50.0,
+                            Description = "Powder-coated trunk. ABS top and bottom slab. 5 pcs telescopic railed, separable drawers. IV Pole and Defibrillator Table on the top side. Detachable waste bin on the side section. Oxygen tube section on the backside. 4 antistatic wheels, 2 with breaks. Design and dimensions are customizable according to users' needs and wishes.",
+                            Name = "Emergency cart W.CC.10 series",
+                            Price = 120.0,
+                            UrlImage = "/Image/ec75d3d8-145b-44f8-9d2b-3c2519861bfd3.jpg",
+                            categoryID = 4,
+                            percentageOfDiscount = 1.0
+                        },
+                        new
+                        {
+                            ID = 19,
+                            Cost = 150.0,
+                            Description = "Cart dimensions: 644mm(L) x 638mm(W) x 1650mm(H); Worksurface height: 1125mm; Worksurface dimensions: 527mm(L) x 420mm(W) Arm Standard Load≦10Kg.",
+                            Name = "Medical cart CE-011",
+                            Price = 200.0,
+                            UrlImage = "/Image/6ee17f4a-5d7f-48d8-ac87-ec55ca8e81304.jpg",
+                            categoryID = 4,
+                            percentageOfDiscount = 0.80000000000000004
+                        },
+                        new
+                        {
+                            ID = 20,
+                            Cost = 100.0,
+                            Description = "Emergency case that is designed to hold and organize medical supplies, equipment, or tools that may be needed in emergency situations. They can vary in size, design, and features depending on the intended use and the preferences of the manufacturer.",
+                            Name = "Handle emergency case STH2EC12ABR2",
+                            Price = 120.0,
+                            UrlImage = "/Image/36ffe217-405d-4355-86b4-c6187571d1345.jpg",
+                            categoryID = 4,
+                            percentageOfDiscount = 0.59999999999999998
+                        });
                 });
 
             modelBuilder.Entity("MedicalTools.Models.User", b =>
@@ -303,6 +1478,32 @@ namespace MedicalTools.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("users");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            City = "Amman",
+                            Email = "Safi.moumen90@gmail.com",
+                            ImageUrl = "/Image/mo'men.jpg",
+                            Name = "Mo'men Safi",
+                            Password = "P@ass0rd",
+                            Role = 0,
+                            location = "https://maps.app.goo.gl/vQFefb6uNaEBtRKR8",
+                            phoneNumber = "0796959979"
+                        },
+                        new
+                        {
+                            ID = 2,
+                            City = "Amman",
+                            Email = "Safi.moumen90@yahoo.com",
+                            ImageUrl = "/Image/mo'men.jpg",
+                            Name = "Mo'men Safi",
+                            Password = "P@ass0rd",
+                            Role = 1,
+                            location = "https://maps.app.goo.gl/vQFefb6uNaEBtRKR8",
+                            phoneNumber = "0796959979"
+                        });
                 });
 
             modelBuilder.Entity("MedicalTools.Models.Cart", b =>
