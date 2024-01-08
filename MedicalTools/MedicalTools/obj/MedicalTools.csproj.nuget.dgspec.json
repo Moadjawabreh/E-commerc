@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj": {}
+    "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\Orange Coding School\\E-commerce\\MedicalTools\\MedicalTools\\MedicalTools.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj": {
+    "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\Orange Coding School\\E-commerce\\MedicalTools\\MedicalTools\\MedicalTools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\Orange Coding School\\E-commerce\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
         "projectName": "MedicalTools",
-        "projectPath": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
+        "projectPath": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\Orange Coding School\\E-commerce\\MedicalTools\\MedicalTools\\MedicalTools.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\New folder\\E-commerc\\MedicalTools\\MedicalTools\\obj\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive - Hashemite University\\Desktop\\Orange Coding School\\E-commerce\\MedicalTools\\MedicalTools\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

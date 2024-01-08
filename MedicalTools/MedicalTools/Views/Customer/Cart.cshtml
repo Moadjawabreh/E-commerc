@@ -51,14 +51,16 @@
                                     <td class="product-name">
                                         <h3>@obj.product.Name</h3>
                                     </td>
-
-                                    <td class="price">@obj.product.Price.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</td>
+                                    @{
+                                        var priceAfterDisc = obj.product.Price * obj.product.percentageOfDiscount;
+                                    }
+                                    <td class="price">@priceAfterDisc.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</td>
 
                                     <td class="quantity">
                                         <span class="price"> @obj.Quantity</span>
                                     </td>
                                     @{
-                                        var totalprice = @obj.product.Price * obj.Quantity;
+                                        var totalprice = @priceAfterDisc * obj.Quantity;
                                     }
                                     <td class="total">@totalprice.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</td>
                                 </tr>

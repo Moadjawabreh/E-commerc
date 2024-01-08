@@ -2,6 +2,7 @@
 using MedicalTools.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 using Newtonsoft.Json;
@@ -210,15 +211,16 @@ namespace MedicalTools.Controllers
         public IActionResult AddToCart(int id, int quantity)
         {
             TempData.Remove("ReturnUrl");
+            
             string? userJson = HttpContext.Session.GetString("LiveUser");
             if (userJson == null)
             {
-                TempData["ReturnUrl"] = Url.Action("AddToCart", "Customer");
+                TempData["ReturnUrl"] = Url.Action("AddToCart", "Customer", new { id = id, quantity = quantity });
                 return RedirectToAction("Index", "Login");
             }
             else
             {
-
+                
                 var user = JsonConvert.DeserializeObject<User>(userJson);
                 var carts = _db.cart.Where(c => c.UserId == user.ID).ToList();
                 foreach (var item in carts)
@@ -232,7 +234,7 @@ namespace MedicalTools.Controllers
                         _db.cart.Update(item);
                         _db.SaveChanges();
                         TempData["success"] = "product Add to Cart successfully";
-                        return RedirectToAction("Index");
+                        return RedirectToAction("SingleProduct", new { ID = id });
                     }
                 }
 
@@ -251,7 +253,7 @@ namespace MedicalTools.Controllers
                 _db.cart.Add(cart);
                 _db.SaveChanges();
                 TempData["success"] = "product Add to Cart successfully";
-                return RedirectToAction("Index");
+                return RedirectToAction("SingleProduct", new { ID = id });
             }
 
 

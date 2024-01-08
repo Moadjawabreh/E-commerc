@@ -329,6 +329,9 @@
 						<span id="passwordError" class="error-message"></span>
 					</div>
 				</div>
+			<div class="text-danger">
+				@Html.ValidationMessage("InvalidUser")
+			</div>
 				<button type="submit" class="submit-btn" id="registerButton">Sign up</button>
 			</form>
 			<form class="login slide-up" asp-action="Index" method="post" >
@@ -344,9 +347,7 @@
 							<span @* asp-validation-for="Password" *@ class="text-danger"></span>
 						</div>
 					</div>
-					<div class="text-danger">
-							@Html.ValidationMessage("InvalidUser")
-					</div>
+					
 					<button type="submit" class="submit-btn">Log in</button>
 				</div>
 			</form>
